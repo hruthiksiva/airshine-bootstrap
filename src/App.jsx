@@ -1,35 +1,51 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react'
+import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider} from 'react-router-dom'
+import MainLayout from './Layouts/MainLayout'
+import HomePage from './Pages/HomePage'
+import NotFound from './Pages/NotFound'
+import ContactPage from './Pages/ContactPage'
+import AboutPage from './Pages/AboutPage'
+import TourPlannerPage from './Pages/TourPlannerPage'
+import DestinationPage from './Pages/DestinationPage'
+import TestimonialsPage from './Pages/TestimonialsPage'
+import DomesticPage from './Pages/DomesticPage'
+import InternationalPage from './Pages/InternationalPage'
+import FlightsPage from './Pages/FlightsPage'
+import HotelsPage from './Pages/HotelsPage'
+import VisaPage from './Pages/VisaPage'
+import InsurancePage from './Pages/InsurancePage'
+import DestinationTemplate from './Pages/DestinationTemplate'
+import FAQPage from './Pages/FAQPage'
+import OurServicesPage from './Pages/OurServicesPage'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path='/' element={<MainLayout/>}>
+        <Route path='/' element={<HomePage/>}/>
+        <Route path='*' element={<NotFound/>}/>
+        <Route path='/contact' element={<ContactPage />}/>
+        <Route path='/about' element={<AboutPage />}/>
+        <Route path='/tourplanner' element={<TourPlannerPage />}/>
+        <Route path='/destinations' element={<DestinationPage />}/>
+        <Route path='/testimonials' element={<TestimonialsPage />}/>
+        <Route path='/domestic' element={<DomesticPage/>}/>
+        <Route path='/international' element={<InternationalPage/>}/>
+        <Route path='/flights' element={<FlightsPage/>}/>
+        <Route path='/hotels' element={<HotelsPage/>}/>
+        <Route path='/visa' element={<VisaPage/>}/>
+        <Route path='/insurance' element={<InsurancePage/>}/>
+        <Route path='/destination-template' element={<DestinationTemplate/>}/>
+        <Route path='/faq' element={<FAQPage/>}/>
+        <Route path='/ourservices' element={<OurServicesPage/>}/>
+      </Route>
+    )
+  )
+
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <RouterProvider router={router}/>
   )
 }
 
-export default App
+export default App;
