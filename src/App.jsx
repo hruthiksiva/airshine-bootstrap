@@ -5,7 +5,6 @@ import HomePage from './Pages/HomePage'
 import NotFound from './Pages/NotFound'
 import ContactPage from './Pages/ContactPage'
 import AboutPage from './Pages/AboutPage'
-import TourPlannerPage from './Pages/TourPlannerPage'
 import DestinationPage from './Pages/DestinationPage'
 import TestimonialsPage from './Pages/TestimonialsPage'
 import DomesticPage from './Pages/DomesticPage'
@@ -17,6 +16,7 @@ import InsurancePage from './Pages/InsurancePage'
 import DestinationTemplate from './Pages/DestinationTemplate'
 import FAQPage from './Pages/FAQPage'
 import OurServicesPage from './Pages/OurServicesPage'
+import TourDetailsPage from './Pages/TourDetailsPage'
 
 
 const router = createBrowserRouter(
@@ -26,7 +26,6 @@ const router = createBrowserRouter(
         <Route path='*' element={<NotFound/>}/>
         <Route path='/contact' element={<ContactPage />}/>
         <Route path='/about' element={<AboutPage />}/>
-        <Route path='/tourplanner' element={<TourPlannerPage />}/>
         <Route path='/destinations' element={<DestinationPage />}/>
         <Route path='/testimonials' element={<TestimonialsPage />}/>
         <Route path='/domestic' element={<DomesticPage/>}/>
@@ -38,6 +37,7 @@ const router = createBrowserRouter(
         <Route path='/destination-template' element={<DestinationTemplate/>}/>
         <Route path='/faq' element={<FAQPage/>}/>
         <Route path='/ourservices' element={<OurServicesPage/>}/>
+        <Route path='/tourdetails' element={<TourDetailsPage/>}/>
       </Route>
     )
   )

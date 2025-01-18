@@ -2,8 +2,8 @@ import React from 'react'
 import HeroSection from '../Components/HeroSection'
 import MetricSection from '../Components/MetricSection'
 import DestinationSection from '../Components/DestinationSection'
-import TourPlanner from '../Components/TourPlanner'
-import Testimonials from '../Components/Testimonials'
+import TestimonialSection from '../Components/TestimonialSection'
+import ContactCard from '../Components/ContactCard'
 
 const HomePage = () => {
   return (
@@ -11,8 +11,8 @@ const HomePage = () => {
         <HeroSection />
         <MetricSection />
         <DestinationSection />
-        <TourPlanner />
-        <Testimonials />
+        <TestimonialSection/>
+        <ContactCard />
     </div>
   )
 }

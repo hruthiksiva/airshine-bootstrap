@@ -1,0 +1,24 @@
+{
+    "faq": [
+        {
+          "question": "What is the best time to travel?",
+          "answer": "The best time to travel depends on your destination. Generally, spring and fall offer the most pleasant weather for most places."
+        },
+        {
+          "question": "How can I book a tour?",
+          "answer": "You can book a tour through our website by selecting your desired package and filling out the booking form."
+        },
+        {
+          "question": "What should I pack for my trip?",
+          "answer": "Packing essentials depend on your destination. However, we recommend bringing comfortable clothing, a first-aid kit, necessary medications, and travel documents."
+        },
+        {
+          "question": "Are there any discounts available?",
+          "answer": "Yes, we offer seasonal discounts and special offers for early bookings. Please check our website for the latest promotions."
+        },
+        {
+          "question": "What is the cancellation policy?",
+          "answer": "Our cancellation policy varies depending on the tour package. Please refer to the specific terms and conditions for each package on our website."
+        }
+      ]
+}

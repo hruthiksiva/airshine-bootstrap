@@ -1,0 +1,79 @@
+{
+    "popular":[
+      {
+        "id": 1,
+        "image": "image_url_1",
+        "location": "Paris, France",
+        "duration": "5 Days / 4 Nights",
+        "link": "/paris"
+      },
+      {
+        "id": 2,
+        "image": "image_url_2",
+        "location": "Tokyo, Japan",
+        "duration": "7 Days / 6 Nights",
+        "link": "/tokyo"
+      },
+      {
+        "id": 3,
+        "image": "image_url_3",
+        "location": "New York, USA",
+        "duration": "4 Days / 3 Nights",
+        "link": "/newyork"
+      }
+    ],
+    "international": [
+    {
+      "id": 1,
+      "image": "image_url_1",
+      "location": "Paris, France",
+      "duration": "5 Days / 4 Nights",
+      "link": "/paris"
+    },
+    {
+      "id": 2,
+      "image": "image_url_2",
+      "location": "Tokyo, Japan",
+      "duration": "7 Days / 6 Nights",
+      "link": "/tokyo"
+    },
+    {
+      "id": 3,
+      "image": "image_url_3",
+      "location": "New York, USA",
+      "duration": "4 Days / 3 Nights",
+      "link": "/newyork"
+    },
+    {
+      "id": 4,
+      "image": "image_url_3",
+      "location": "New York, USA",
+      "duration": "4 Days / 3 Nights",
+      "link": "/newyork"
+    }
+  ],
+  "domestic":[
+    {
+      "id": 1,
+      "image": "image_url_1",
+      "location": "Paris, France",
+      "duration": "5 Days / 4 Nights",
+      "link": "/paris"
+    },
+    {
+      "id": 2,
+      "image": "image_url_2",
+      "location": "Tokyo, Japan",
+      "duration": "7 Days / 6 Nights",
+      "link": "/tokyo"
+    },
+    {
+      "id": 3,
+      "image": "image_url_3",
+      "location": "New York, USA",
+      "duration": "4 Days / 3 Nights",
+      "link": "/newyork"
+    }
+  ]
+}
+  
