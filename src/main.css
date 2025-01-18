@@ -122,3 +122,8 @@
 .card:hover .card-body .display-4 {
   transform: scale(1.1);
 }
+
+/* body{
+  background-image: url('assets/images/body-background.png');
+  background-size: cover;
+} */
