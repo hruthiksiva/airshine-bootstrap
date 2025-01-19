@@ -1,101 +1,43 @@
 import React from 'react'
-import {
-  MDBCard,
-  MDBCardBody,
-  MDBCol,
-  MDBContainer,
-  MDBIcon,
-  MDBRow,
-} from "mdb-react-ui-kit";
+import hero1 from '../assets/images/home/hero-1.jpg'
 
 const TestimonialSection = () => {
   return (
     <div>
-      <MDBContainer className="py-5">
-      <MDBRow className="d-flex justify-content-center">
-        <MDBCol md="10" xl="8" className="text-center">
-          <h3 className="mb-4">Testimonials</h3>
-          <p className="mb-4 pb-2 mb-md-5 pb-md-0">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-            error amet numquam iure provident voluptate esse quasi, veritatis
-            totam voluptas nostrum quisquam eum porro a pariatur veniam.
-          </p>
-        </MDBCol>
-      </MDBRow>
-      <MDBRow className="text-center d-flex align-items-stretch">
-        <MDBCol md="4" className="mb-5 mb-md-0 d-flex align-items-stretch">
-          <MDBCard className="testimonial-card">
-            <div
-              className="card-up"
-              style={{ backgroundColor: "#9d789b" }}
-            ></div>
-            <div className="avatar mx-auto bg-white">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
-                className="rounded-circle img-fluid"
-              />
+      <div className="text-center p-3">
+        <h1 className="mb-3 display-1">Trsuted Words By People</h1> 
+        <p>Every milestone we achieve reflects our dedication to transforming financial solutions and exceeding expectations.</p>
+      </div>
+
+       <div className="container-fluid col-11 px-5 py-5">
+          <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+            
+            <div className="col-lg-6">
+               {/* <p className=" fw-normal rounded-2">Every client growing 5X</p> */}
+               <div className="badge fw-normal bg-hero py-2 px-3 rounded-pill mb-2" style={{backgroundColor: '#c8dcf4', color: '#002147'}}>
+                    ABOUT US&nbsp;
+              </div>
+              <h2 className="display-7 fw-bold lh-2 mb-3 text-justify">Your Portal to Global Travel Insipration</h2>
+              <p className="fs-6 mb-4 text-justify">Airshine is your ultimate travel companion, offering personalised itineraies and unforgettable experiences. Whether you are seeking adventure, relaxation, or cultural exploration, Airhsine crafts journeys that cater to your unique preferences.</p>
+              <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+              <div className="d-grid d-md-flex">
+                  <a className="btn px-4 py-2 contact-us" href="/contact">
+                    Start Exploring
+                  </a>
+              </div>
+              </div>
+      </div>
+      <div className="col-md-12 col-sm-12 col-lg-6" >
+                 <img src={hero1} className="d-block mx-lg-auto img-fluid " alt="Bootstrap Themes" loading="lazy" style={{width:'100%'}} />
+                {/* <div style={{position:'absolute',right:'0px', width:'300px', height:'300px'}} className="rounded-circle bg-dark">‎</div> */}
             </div>
-            <MDBCardBody>
-              <h4 className="mb-4">Maria Smantha</h4>
-              <hr />
-              <p className="dark-grey-text mt-4">
-                <MDBIcon fas icon="quote-left" className="pe-2" />
-                Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing
-                elit.
-              </p>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-        <MDBCol md="4" className="mb-5 mb-md-0 d-flex align-items-stretch">
-          <MDBCard className="testimonial-card">
-            <div
-              className="card-up"
-              style={{ backgroundColor: "#7a81a8" }}
-            ></div>
-            <div className="avatar mx-auto bg-white">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-                className="rounded-circle img-fluid"
-              />
+      
             </div>
-            <MDBCardBody>
-              <h4 className="mb-4">Lisa Cudrow</h4>
-              <hr />
-              <p className="dark-grey-text mt-4">
-                <MDBIcon fas icon="quote-left" className="pe-2" />
-                Neque cupiditate assumenda in maiores repudi mollitia
-                architecto.
-              </p>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-        <MDBCol md="4" className="mb-5 mb-md-0 d-flex align-items-stretch">
-          <MDBCard className="testimonial-card">
-            <div
-              className="card-up"
-              style={{ backgroundColor: "#6d5b98" }}
-            ></div>
-            <div className="avatar mx-auto bg-white">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
-                className="rounded-circle img-fluid"
-              />
-            </div>
-            <MDBCardBody>
-              <h4 className="mb-4">John Smith</h4>
-              <hr />
-              <p className="dark-grey-text mt-4">
-                <MDBIcon fas icon="quote-left" className="pe-2" />
-                Delectus impedit saepe officiis ab aliquam repellat rem unde
-                ducimus.
-              </p>
-            </MDBCardBody>
-          </MDBCard>
-        </MDBCol>
-      </MDBRow>
-    </MDBContainer>
+          </div>
+
+
     </div>
   )
 }
 
-export default TestimonialSection;
+export default TestimonialSection

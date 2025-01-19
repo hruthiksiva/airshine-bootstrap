@@ -8,16 +8,98 @@ import service6 from "../assets/images/services/service-6.jpg"
 const OurServices = () => {
     return (
       <>
-        <div className="container-fluid px-0">
-          <section className="hero-section bg-light py-5">
-            <div className="container">
-              <div className="text-start">
-                <h1 className="display-4 fw-bold">Our Services</h1>
-                <p className="fs-5 mt-2">
-                  We strive to give a hassle-free experience for our customers and believe in providing excellent professional client service with high ethical standards.
-                </p>
-              </div>
-            </div>
+        <div className="container-fluid px-0 ">
+          <section className="hero-section bg-light">
+            <div
+                  className="hero-section text-white text-center d-flex flex-column justify-content-center align-items-center position-relative"
+                  style={{
+                    backgroundImage: `url(${service1})` ,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    height: '90vh',
+                  }}
+                >
+                  <div
+                    className="overlay position-absolute top-0 start-0 w-100 h-100"
+                    style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}
+                  ></div>
+            
+                  <div className="z-1">
+                    <h1 className="display-3 fw-bold">Services Principle</h1>
+                    <p className="fs-4">Your Journey Starts Here</p>
+                  </div>
+            
+                  <div
+                    className="search-box position-absolute bottom-0 start-50 translate-middle-x w-100 p-4 bg-white rounded shadow-lg"
+                    style={{ maxWidth: '1100px', marginBottom: '50px' }}
+                  >
+                    <form className="row g-4 align-items-center">
+                      <div className="col-md-3">
+                        <label htmlFor="destination" className="form-label fw-bold text-secondary">
+                          Location
+                        </label>
+                        <select
+                          id="destination"
+                          className="form-select form-control-lg"
+                          defaultValue=""
+                          required
+                        >
+                          <option value="" disabled>
+                            Choose your destination
+                          </option>
+                          <option value="paris">Paris</option>
+                          <option value="dubai">Dubai</option>
+                          <option value="maldives">Maldives</option>
+                          <option value="tokyo">Tokyo</option>
+                        </select>
+                      </div>
+            
+                      <div className="col-md-2">
+                        <label htmlFor="fromDate" className="form-label fw-bold text-secondary">
+                          From Date
+                        </label>
+                        <input
+                          type="date"
+                          className="form-control form-control-lg"
+                          id="fromDate"
+                          required
+                        />
+                      </div>
+            
+                      <div className="col-md-2">
+                        <label htmlFor="toDate" className="form-label fw-bold text-secondary">
+                          To Date
+                        </label>
+                        <input
+                          type="date"
+                          className="form-control form-control-lg"
+                          id="toDate"
+                          required
+                        />
+                      </div>
+            
+                      <div className="col-md-2">
+                        <label htmlFor="people" className="form-label fw-bold text-secondary">
+                          Persons
+                        </label>
+                        <input
+                          type="number"
+                          className="form-control form-control-lg"
+                          id="people"
+                          placeholder="1"
+                          min="1"
+                          required
+                        />
+                      </div>
+            
+                      <div className="col-md-3 d-grid">
+                        <button type="submit" className="btn btn-primary btn-lg">
+                          Consult
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
           </section>
   
           <section className="hero-section py-5">

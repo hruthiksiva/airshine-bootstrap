@@ -38,8 +38,8 @@ const FooterSection = () => {
               <div className="col-md-3 mb-4">
                 <h6 className="text-uppercase fw-bold">Airshine</h6>
                 <hr className="mb-4 mt-0 w-50 mx-auto bg-primary border-0" style={{ height: "2px" }} />
-                <p>
-                  Discover Trichy Travels, your gateway to exploring the vibrant
+                <p className="text-left">
+                  Discover Airshine Tours and Travels, your gateway to exploring the vibrant
                   culture and scenic beauty of Tamil Nadu. Specializing in
                   personalized tours, we offer unique experiences.
                 </p>
