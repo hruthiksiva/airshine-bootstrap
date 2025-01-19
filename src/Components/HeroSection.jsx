@@ -1,34 +1,100 @@
-import React from 'react'
-import hero1 from '../assets/images/home/hero-1.jpg'
+import React from 'react';
+import image1 from '../assets/images/hero-section.jpg'
 
 const HeroSection = () => {
   return (
-    <div>
-      <div className="container-fluid col-11 px-5 py-5">
-    <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div className="col-md-12 col-sm-12 col-lg-6" >
-           <img src={hero1} className="d-block mx-lg-auto img-fluid " alt="Bootstrap Themes" loading="lazy" style={{width:'100%'}} />
-          {/* <div style={{position:'absolute',right:'0px', width:'300px', height:'300px'}} className="rounded-circle bg-dark">‎</div> */}
-      </div>
-      <div className="col-lg-6">
-         {/* <p className=" fw-normal rounded-2">Every client growing 5X</p> */}
-         <div className="badge fw-normal bg-hero py-2 px-3 rounded-pill mb-2" style={{backgroundColor: '#c8dcf4', color: '#002147'}}>
-              INSPIRE GLOBAL TRAVEL&nbsp;<span>↗</span>
-        </div>
-        <h2 className="display-4 fw-bold lh-2 mb-3 text-justify">Your Portal to Global Travel Insipration</h2>
-        <p className="fs-4 mb-4 text-justify">Become the exponent of success! Unlock fast, seamless business loans tailored to your needs. With easy financing solutions, you&apos;ll transform your business and scale up like never before!</p>
-        <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-        <div className="d-grid d-md-flex">
-            <a className="btn px-4 py-2 contact-us" href="/contact">
-              Start Exploring
-            </a>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
-    </div>
-  )
-}
+    <div
+      className="hero-section text-white text-center d-flex flex-column justify-content-center align-items-center position-relative"
+      style={{
+        backgroundImage: `url(${image1})` ,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        height: '90vh',
+      }}
+    >
+      <div
+        className="overlay position-absolute top-0 start-0 w-100 h-100"
+        style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}
+      ></div>
 
-export default HeroSection
+      <div className="z-1">
+        <h1 className="display-3 fw-bold">Explore the World with Us</h1>
+        <p className="fs-4">Your Journey Starts Here</p>
+      </div>
+
+      <div
+        className="search-box position-absolute bottom-0 start-50 translate-middle-x w-100 p-4 bg-white rounded shadow-lg"
+        style={{ maxWidth: '1100px', marginBottom: '50px' }}
+      >
+        <form className="row g-4 align-items-center">
+          <div className="col-md-3">
+            <label htmlFor="destination" className="form-label fw-bold text-secondary">
+              Location
+            </label>
+            <select
+              id="destination"
+              className="form-select form-control-lg"
+              defaultValue=""
+              required
+            >
+              <option value="" disabled>
+                Choose your destination
+              </option>
+              <option value="paris">Paris</option>
+              <option value="dubai">Dubai</option>
+              <option value="maldives">Maldives</option>
+              <option value="tokyo">Tokyo</option>
+            </select>
+          </div>
+
+          <div className="col-md-2">
+            <label htmlFor="fromDate" className="form-label fw-bold text-secondary">
+              From Date
+            </label>
+            <input
+              type="date"
+              className="form-control form-control-lg"
+              id="fromDate"
+              required
+            />
+          </div>
+
+          <div className="col-md-2">
+            <label htmlFor="toDate" className="form-label fw-bold text-secondary">
+              To Date
+            </label>
+            <input
+              type="date"
+              className="form-control form-control-lg"
+              id="toDate"
+              required
+            />
+          </div>
+
+          <div className="col-md-2">
+            <label htmlFor="people" className="form-label fw-bold text-secondary">
+              Persons
+            </label>
+            <input
+              type="number"
+              className="form-control form-control-lg"
+              id="people"
+              placeholder="1"
+              min="1"
+              required
+            />
+          </div>
+
+          <div className="col-md-3 d-grid">
+            <button type="submit" className="btn btn-primary btn-lg">
+              Consult
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+};
+
+export default HeroSection;
+
