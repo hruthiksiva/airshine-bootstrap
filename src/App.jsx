@@ -37,7 +37,7 @@ const router = createBrowserRouter(
         <Route path='/destination-template' element={<DestinationTemplate/>}/>
         <Route path='/faq' element={<FAQPage/>}/>
         <Route path='/ourservices' element={<OurServicesPage/>}/>
-        <Route path='/tourdetails' element={<TourDetailsPage/>}/>
+        <Route path="/tour/:id" element={<TourDetailsPage />} />
       </Route>
     )
   )

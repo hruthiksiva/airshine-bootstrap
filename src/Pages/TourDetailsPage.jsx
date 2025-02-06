@@ -1,32 +1,29 @@
 import React from 'react';
-import dubai1 from '../assets/images/trips/dubai/dubai-1.jpeg';
-import dubai2 from '../assets/images/trips/dubai/dubai-2.jpeg';
+import { useParams } from 'react-router-dom'; // For dynamic routing
+import tourData from '../assets/data/tours.json'; // Import the JSON file
 
 const TourDetailsPage = () => {
+  const { id } = useParams(); // Get the tour ID from the URL
+  const tour = tourData.find((tour) => tour.id === id); // Find the tour by ID
+
+  if (!tour) {
+    return <div className="container mt-4">Tour not found!</div>;
+  }
+
   return (
     <div className="container mt-4">
-      <h1 className="text-center display-4 mb-5">Dubai</h1>
+      <h1 className="text-center display-4 mb-5">{tour.title}</h1>
 
       <div className="row g-4">
         {/* Carousel Section */}
         <div className="col-md-8">
           <div id="tourCarousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img src={dubai1} className="d-block w-100 rounded" alt="Place 1" />
-              </div>
-              <div className="carousel-item">
-                <img src={dubai2} className="d-block w-100 rounded" alt="Place 2" />
-              </div>
-              <div className="carousel-item">
-                <img src={dubai1} className="d-block w-100 rounded" alt="Place 3" />
-              </div>
-              <div className="carousel-item">
-                <img src={dubai2} className="d-block w-100 rounded" alt="Place 4" />
-              </div>
-              <div className="carousel-item">
-                <img src={dubai1} className="d-block w-100 rounded" alt="Place 5" />
-              </div>
+              {tour.images.map((image, index) => (
+                <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
+                  <img src={image} className="d-block w-100 rounded" alt={`Place ${index + 1}`} />
+                </div>
+              ))}
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#tourCarousel" data-bs-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -72,14 +69,12 @@ const TourDetailsPage = () => {
       <div className="mt-5">
         <h2 className="h3 mb-4">Itinerary</h2>
         <div className="row g-4">
-          {[...Array(5)].map((_, i) => (
-            <div key={i} className="col-md-6">
+          {tour.itinerary.map((day, index) => (
+            <div key={index} className="col-md-6">
               <div className="card shadow-sm">
                 <div className="card-body">
-                  <h3 className="h5 card-title">Day {i + 1}</h3>
-                  <p className="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
-                  </p>
+                  <h3 className="h5 card-title">Day {index + 1}</h3>
+                  <p className="card-text">{day}</p>
                 </div>
               </div>
             </div>
@@ -94,10 +89,9 @@ const TourDetailsPage = () => {
             <div className="card-body">
               <h2 className="h4 card-title">Included</h2>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">Accommodation</li>
-                <li className="list-group-item">Meals</li>
-                <li className="list-group-item">Transportation</li>
-                <li className="list-group-item">Guided Tours</li>
+                {tour.included.map((item, index) => (
+                  <li key={index} className="list-group-item">{item}</li>
+                ))}
               </ul>
             </div>
           </div>
@@ -107,10 +101,9 @@ const TourDetailsPage = () => {
             <div className="card-body">
               <h2 className="h4 card-title">Excluded</h2>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">Flights</li>
-                <li className="list-group-item">Travel Insurance</li>
-                <li className="list-group-item">Personal Expenses</li>
-                <li className="list-group-item">Gratuities</li>
+                {tour.excluded.map((item, index) => (
+                  <li key={index} className="list-group-item">{item}</li>
+                ))}
               </ul>
             </div>
           </div>

@@ -1,19 +1,7 @@
 import React from 'react';
 
 
-const StatsCard = ({ icon, number, label, color }) => {
-  return (
-    <div className="col-md-3 col-sm-6 mb-4">
-      <div className="stats-card p-4 h-100 text-center">
-        <div className={`mb-3 ${color}`}>
-          <i className={`bi ${icon} fs-1`}></i>
-        </div>
-        <div className="stats-number">{number}</div>
-        <div className="stats-label">{label}</div>
-      </div>
-    </div>
-  );
-};
+
 
 const AboutUsSection = () => {
   return (
@@ -23,7 +11,7 @@ const AboutUsSection = () => {
           <div className="row align-items-center g-5">
             <div className="col-lg-6 order-lg-2">
               <img
-                src="/api/placeholder/600/400"
+                src="src/assets/images/services/service-3.jpg"
                 className="about-image img-fluid w-100"
                 alt="Airshine Tours Experience"
                 loading="lazy"
@@ -47,32 +35,6 @@ const AboutUsSection = () => {
                 Start Exploring
               </a>
 
-              <div className="row mt-5">
-                <StatsCard 
-                  icon="bi-globe2" 
-                  number="50+" 
-                  label="Destinations" 
-                  color="text-primary"
-                />
-                <StatsCard 
-                  icon="bi-people-fill" 
-                  number="10k+" 
-                  label="Happy Travelers" 
-                  color="text-success"
-                />
-                <StatsCard 
-                  icon="bi-star-fill" 
-                  number="4.9" 
-                  label="Average Rating" 
-                  color="text-warning"
-                />
-                <StatsCard 
-                  icon="bi-trophy-fill" 
-                  number="15+" 
-                  label="Years Experience" 
-                  color="text-info"
-                />
-              </div>
             </div>
           </div>
         </div>

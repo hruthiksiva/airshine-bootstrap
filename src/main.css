@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap');
+
+
 .testimonial-card .card-up {
   height: 120px;
   overflow: hidden;
@@ -129,7 +133,6 @@ body {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap');
 
   .hero-title {
     font-family: 'Playfair Display', serif;
@@ -184,7 +187,6 @@ body {
   }
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap');
 
   .hero-title {
     font-family: 'Playfair Display', serif;
@@ -239,7 +241,6 @@ body {
   }
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap');
 
   .why-section {
     background-color: #002B5B;
@@ -319,7 +320,6 @@ body {
 
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap');
 
   .trip-card {
     border: none;
@@ -380,7 +380,6 @@ body {
 
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap');
 
   .about-section {
     background-color: #F8F9FA;
@@ -627,4 +626,63 @@ body {
 
 .custom-button:hover {
   background-color: #7C2CD8;
+}
+
+
+
+/* Navbar Section Styling */
+.navbar {
+  background-color: #FFFFFF !important; /* White background */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft drop shadow */
+  padding: 20px 0; /* Adequate spacing */
+}
+
+.navbar-brand img {
+  max-height: 45px; /* Logo size */
+}
+
+.nav-link {
+  font-family: 'Inter', sans-serif; /* Body font */
+  font-size: 18px; /* Body text size */
+  color: #002B5B !important; /* Deep Navy for links */
+  margin: 0 10px; /* Spacing between links */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-link:hover {
+  color: #0056B3 !important; /* Royal Blue on hover */
+}
+
+.dropdown-menu {
+  background-color: #FFFFFF; /* White background */
+  border: none;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08); /* Subtle premium shadow */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.dropdown-item {
+  font-family: 'Inter', sans-serif; /* Body font */
+  font-size: 16px; /* Slightly smaller for dropdown items */
+  color: #002B5B; /* Deep Navy for dropdown items */
+  padding: 10px 20px; /* Adequate padding */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.dropdown-item:hover {
+  background-color: #F8F9FA; /* Light Gray on hover */
+  color: #0056B3; /* Royal Blue on hover */
+}
+
+.btn-primary {
+  background-color: #0056B3; /* Royal Blue for buttons */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px 20px; /* Adequate padding */
+  font-family: 'Inter', sans-serif; /* Body font */
+  font-size: 18px; /* Body text size */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.btn-primary:hover {
+  background-color: #002B5B; /* Deep Navy on hover */
 }

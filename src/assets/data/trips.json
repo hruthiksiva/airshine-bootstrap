@@ -2,21 +2,21 @@
     "popular":[
       {
         "id": 1,
-        "image": "image_url_1",
+        "image": "src/assets/images/trips/paris/paris-1.jpg",
         "location": "Paris, France",
         "duration": "5 Days / 4 Nights",
         "link": "/paris"
       },
       {
         "id": 2,
-        "image": "image_url_2",
+        "image": "src/assets/images/trips/tokyo/tokyo-1.jpg",
         "location": "Tokyo, Japan",
         "duration": "7 Days / 6 Nights",
         "link": "/tokyo"
       },
       {
         "id": 3,
-        "image": "image_url_3",
+        "image": "src/assets/images/trips/usa/usa-1.jpg",
         "location": "New York, USA",
         "duration": "4 Days / 3 Nights",
         "link": "/newyork"
@@ -25,21 +25,21 @@
     "international": [
     {
       "id": 1,
-      "image": "image_url_1",
+      "image": "src/assets/images/trips/paris/paris-1.jpg",
       "location": "Paris, France",
       "duration": "5 Days / 4 Nights",
       "link": "/paris"
     },
     {
       "id": 2,
-      "image": "image_url_2",
+      "image": "src/assets/images/trips/tokyo/tokyo-1.jpg",
       "location": "Tokyo, Japan",
       "duration": "7 Days / 6 Nights",
       "link": "/tokyo"
     },
     {
       "id": 3,
-      "image": "image_url_3",
+      "image": "src/assets/images/trips/usa/usa-1.jpg",
       "location": "New York, USA",
       "duration": "4 Days / 3 Nights",
       "link": "/newyork"
@@ -55,21 +55,21 @@
   "domestic":[
     {
       "id": 1,
-      "image": "image_url_1",
+      "image": "src/assets/images/trips/paris/paris-1.jpg",
       "location": "Paris, France",
       "duration": "5 Days / 4 Nights",
       "link": "/paris"
     },
     {
       "id": 2,
-      "image": "image_url_2",
+      "image": "src/assets/images/trips/tokyo/tokyo-1.jpg",
       "location": "Tokyo, Japan",
       "duration": "7 Days / 6 Nights",
       "link": "/tokyo"
     },
     {
       "id": 3,
-      "image": "image_url_3",
+      "image": "src/assets/images/trips/usa/usa-1.jpg",
       "location": "New York, USA",
       "duration": "4 Days / 3 Nights",
       "link": "/newyork"

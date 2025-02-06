@@ -1,0 +1,101 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500&display=swap');
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+body, p, .card-text, .form-control {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.domestic-hero {
+  background-image: url('path-to-your-hero-image.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Search Bar */
+.search-input {
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #E9ECEF;
+}
+
+/* Trip Cards */
+.trip-card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.trip-card:hover {
+  transform: translateY(-5px);
+}
+
+.trip-image {
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.btn-more {
+  background-color: #0056B3;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.btn-more:hover {
+  background-color: #002B5B;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+  }
+
+  .container {
+    width: 100%;
+  }
+}

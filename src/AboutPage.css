@@ -1,0 +1,77 @@
+/* Custom CSS for AboutPage */
+.brand-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #002B5B; /* Deep Navy */
+    margin-bottom: 40px;
+  }
+  
+  .brand-subheading {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #002B5B; /* Deep Navy */
+    margin-bottom: 20px;
+  }
+  
+  .brand-body-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #6C757D; /* Dark Gray */
+    line-height: 1.6;
+  }
+  
+  .hero-image {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+  }
+  
+  .brand-card {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin-bottom: 80px;
+  }
+  
+  .brand-image {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    aspect-ratio: 2 / 1;
+    object-fit: cover;
+  }
+  
+  /* Bootstrap Overrides */
+  .container {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  
+  .bg-white {
+    background-color: #FFFFFF !important;
+  }
+  
+  .rounded-lg {
+    border-radius: 8px !important;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08) !important;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 0 15px;
+    }
+  
+    .brand-heading {
+      font-size: 36px;
+    }
+  
+    .brand-subheading {
+      font-size: 28px;
+    }
+  
+    .brand-body-text {
+      font-size: 16px;
+    }
+  }

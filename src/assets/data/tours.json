@@ -1,0 +1,58 @@
+[
+    {
+      "id": "dubai",
+      "title": "Dubai",
+      "images": [
+        "../assets/images/trips/dubai/dubai-1.jpeg",
+        "../assets/images/trips/dubai/dubai-2.jpeg",
+        "../assets/images/trips/dubai/dubai-3.jpeg"
+      ],
+      "itinerary": [
+        "Arrival in Dubai, check-in at the hotel, and enjoy a welcome dinner.",
+        "Explore the Burj Khalifa, Dubai Mall, and the Dubai Fountain.",
+        "Desert safari with dune bashing, camel rides, and a traditional BBQ dinner.",
+        "Visit Palm Jumeirah, Atlantis The Palm, and enjoy water sports.",
+        "Free day for shopping and leisure, followed by a farewell dinner."
+      ],
+      "included": [
+        "Accommodation in a 5-star hotel",
+        "Daily breakfast and dinner",
+        "Transportation in a private vehicle",
+        "Guided tours and entrance fees"
+      ],
+      "excluded": [
+        "International flights",
+        "Travel insurance",
+        "Personal expenses",
+        "Gratuities"
+      ]
+    },
+    {
+      "id": "paris",
+      "title": "Paris",
+      "images": [
+        "../assets/images/trips/paris/paris-1.jpeg",
+        "../assets/images/trips/paris/paris-2.jpeg",
+        "../assets/images/trips/paris/paris-3.jpeg"
+      ],
+      "itinerary": [
+        "Arrival in Paris, check-in at the hotel, and enjoy a welcome dinner.",
+        "Visit the Eiffel Tower, Louvre Museum, and Seine River Cruise.",
+        "Explore Montmartre, Sacré-Cœur Basilica, and enjoy a French cuisine cooking class.",
+        "Day trip to Versailles Palace and Gardens.",
+        "Free day for shopping and leisure, followed by a farewell dinner."
+      ],
+      "included": [
+        "Accommodation in a 4-star hotel",
+        "Daily breakfast",
+        "Transportation in a private vehicle",
+        "Guided tours and entrance fees"
+      ],
+      "excluded": [
+        "International flights",
+        "Travel insurance",
+        "Personal expenses",
+        "Gratuities"
+      ]
+    }
+  ]
