@@ -1,108 +1,87 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFlask, faChartLine, faHeadset, faShieldAlt, faLightbulb, faCalendarCheck } from '@fortawesome/free-solid-svg-icons'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { 
+  faMapMarkedAlt, 
+  faHandsHelping, 
+  faWallet, 
+  faSmile, 
+  faShieldAlt, 
+  faCalendarCheck 
+} from '@fortawesome/free-solid-svg-icons';
 
 const WhySection = () => {
   return (
-    <div className="container-fluid py-5 bg-dark">
-        <div className="row d-flex justify-content-center text-center my-5">
-          <div className="col-10 text-white">
-            <h1>Our <span className="text-center" style={{ color:'lightBlue' }}>Core Strengths</span></h1>
-            <p className="">
-              At AaiTech, we take great pride in our core strengths, which fuel our dedication to quality work and client satisfaction. Our creative approach is driven by ongoing research and development, guaranteeing that we provide the best solutions customized to your particular company requirements.
-              <p className="fw-normal" style={{ color: 'teal' }}>Get in touch today to explore the possibilities. Your success, our commitment.</p>
+    <>
+      <section className="why-section">
+        <div className="container">
+          <div className="text-center mb-5">
+            <h2 className="why-section-title">
+              Why <span>Choose Us</span>
+            </h2>
+            <p className="section-description mx-auto">
+              At Airshine Tours and Travels, we are dedicated to making your travel experience unforgettable. 
+              With a focus on personalized service, safety, and affordability, we ensure every journey is seamless and memorable.
+              <div className="highlight-text">
+                Let us take you on the adventure of a lifetime. Your dream vacation starts here.
+              </div>
             </p>
           </div>
-        </div>
 
-        {/* Cards for Core Strengths */}
-        <div className="row d-flex pb-5 justify-content-center">
-          {/* Card 1: Innovation and R&D */}
-          <div className="card border-0 col-md-3 shadow-sm col-10 m-3 herobg  rounded-4" style={{  }}>
-            <div className="card-body d-flex flex-column align-items-start" style={{ display: 'flex', flexDirection: 'column' }}>
-              <FontAwesomeIcon icon={faFlask} size="2x" className="mb-3" style={{  }} /> {/* Font Awesome Icon */}
-              <h5 className="card-title">Innovation and R&D</h5>
-              <p className="card-text">
-                Driving innovation through continuous research and development to deliver cutting-edge solutions, ensuring our clients stay ahead in a rapidly evolving technological landscape.
-              </p>
-              <div className="mt-auto">
-                <a href="/contact" className="" style={{ textDecoration: 'none',  }}>Start with us  </a>
+          <div className="row g-4">
+            {[
+              {
+                icon: faMapMarkedAlt,
+                title: "Expertly Curated Itineraries",
+                text: "Our travel experts design unique and personalized itineraries to ensure you experience the best of every destination, tailored to your preferences.",
+                link: "Explore Tours"
+              },
+              {
+                icon: faHandsHelping,
+                title: "24/7 Customer Support",
+                text: "Our dedicated support team is available around the clock to assist you with any queries or concerns, ensuring a hassle-free travel experience.",
+                link: "Contact Us"
+              },
+              {
+                icon: faWallet,
+                title: "Affordable Packages",
+                text: "We offer a wide range of budget-friendly travel packages without compromising on quality, making your dream vacation accessible to everyone.",
+                link: "View Packages"
+              },
+              {
+                icon: faSmile,
+                title: "Memorable Experiences",
+                text: "From hidden gems to iconic landmarks, we create unforgettable travel experiences that leave you with lifelong memories.",
+                link: "Discover More"
+              },
+              {
+                icon: faShieldAlt,
+                title: "Safety and Security",
+                text: "Your safety is our top priority. We partner with trusted vendors and follow strict safety protocols to ensure a secure and worry-free journey.",
+                link: "Learn More"
+              },
+              {
+                icon: faCalendarCheck,
+                title: "On-Time Services",
+                text: "We value your time. Our punctual and reliable services ensure that every aspect of your trip runs smoothly and on schedule.",
+                link: "Book Now"
+              }
+            ].map((feature, index) => (
+              <div key={index} className="col-md-6 col-lg-4">
+                <div className="feature-card p-4">
+                  <FontAwesomeIcon icon={feature.icon} size="2x" className="feature-icon" />
+                  <h3 className="feature-title">{feature.title}</h3>
+                  <p className="feature-text">{feature.text}</p>
+                  <a href="/contact" className="feature-link">
+                    {feature.link} →
+                  </a>
+                </div>
               </div>
-            </div>
-          </div>
-
-          {/* Card 2: Scalability */}
-          <div className="card border-0 col-md-3 shadow-sm col-10 m-3 herobg rounded-4" style={{  }}>
-            <div className="card-body d-flex flex-column align-items-start" style={{ display: 'flex', flexDirection: 'column' }}>
-              <FontAwesomeIcon icon={faChartLine} size="2x" className="mb-3" style={{  }} /> {/* Font Awesome Icon */}
-              <h5 className="card-title">Scalability</h5>
-              <p className="card-text">
-                Designing flexible solutions that grow seamlessly with your business, ensuring long-term scalability and adaptability to changing market demands.
-              </p>
-              <div className="mt-auto">
-                <a href="/contact" className="" style={{ textDecoration: 'none',  }}>Start with us  </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Card 3: Customer Support */}
-          <div className="card border-0 col-md-3 shadow-sm col-10 m-3 herobg rounded-4" style={{  }}>
-            <div className="card-body d-flex flex-column align-items-start" style={{ display: 'flex', flexDirection: 'column' }}>
-              <FontAwesomeIcon icon={faHeadset} size="2x" className="mb-3" style={{  }} /> {/* Font Awesome Icon */}
-              <h5 className="card-title">Customer Support</h5>
-              <p className="card-text">
-                Providing exceptional support to ensure client success and satisfaction, with a dedicated team available to address your needs promptly and effectively.
-              </p>
-              <div className="mt-auto">
-                <a href="/contact" className="" style={{ textDecoration: 'none',  }}>Start with us  </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Card 4: Security and Compliance */}
-          <div className="card border-0 col-md-3 shadow-sm col-10 m-3 herobg rounded-4" style={{  }}>
-            <div className="card-body d-flex flex-column align-items-start" style={{ display: 'flex', flexDirection: 'column' }}>
-              <FontAwesomeIcon icon={faShieldAlt} size="2x" className="mb-3" style={{  }} /> {/* Font Awesome Icon */}
-              <h5 className="card-title">Security and Compliance</h5>
-              <p className="card-text">
-                Implementing robust security measures and ensuring compliance with industry standards, safeguarding your data and maintaining trust and reliability.
-              </p>
-              <div className="mt-auto">
-                <a href="/contact" className="" style={{ textDecoration: 'none',  }}>Start with us  </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Card 5: Proactive Problem Solving */}
-          <div className="card border-0 col-md-3 shadow-sm col-10 m-3 herobg rounded-4" style={{  }}>
-            <div className="card-body d-flex flex-column align-items-start" style={{ display: 'flex', flexDirection: 'column' }}>
-              <FontAwesomeIcon icon={faLightbulb} size="2x" className="mb-3" style={{  }} /> {/* Font Awesome Icon */}
-              <h5 className="card-title">Proactive Problem Solving</h5>
-              <p className="card-text">
-                Anticipating and resolving challenges swiftly to maintain project momentum and client satisfaction, ensuring smooth and efficient project delivery.
-              </p>
-              <div className="mt-auto">
-                <a href="/contact" className="" style={{ textDecoration: 'none',  }}>Start with us  </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Card 6: Commitment to Deadlines */}
-          <div className="card border-0 col-md-3 shadow-sm col-10 m-3 herobg rounded-4" style={{  }}>
-            <div className="card-body d-flex flex-column align-items-start" style={{ display: 'flex', flexDirection: 'column' }}>
-              <FontAwesomeIcon icon={faCalendarCheck} size="2x" className="mb-3" style={{  }} /> {/* Font Awesome Icon */}
-              <h5 className="card-title">Commitment to Deadlines</h5>
-              <p className="card-text">
-                Consistently meeting project deadlines, ensuring timely delivery and client satisfaction, while maintaining the highest standards of quality.
-              </p>
-              <div className="mt-auto">
-                <a href="/contact" className="" style={{ textDecoration: 'none',  }}>Start with us </a>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
-      </div>
-  )
-}
+      </section>
+    </>
+  );
+};
 
-export default WhySection
+export default WhySection;

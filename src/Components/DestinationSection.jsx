@@ -2,19 +2,16 @@ import TripCards from "./TripCards";
 
 const DestinationSection = () => {
   return (
-    <div className="container py-4">
+    <div className="container py-5">
       
       {/* International Trips Section */}
       <section className="my-5">
-      <h2 className="display-7 fw-bold lh-2 mb-3 text-justify">International Trips</h2>
-    <p className="fs-6 mb-4 text-justify">Airshine is your ultimate travel companion, offering personalised itineraies and unforgettable experiences. Whether you are seeking adventure, relaxation, or cultural exploration, Airhsine crafts journeys that cater to your unique preferences.</p>
+        <h2 className="display-5 fw-bold lh-base mb-4 text-center">International Trips</h2>
+        <p className="fs-5 text-muted text-center px-md-5">Experience the world with Airshine, your ultimate travel companion. Whether you seek adventure, relaxation, or cultural exploration, we craft unforgettable journeys tailored to your desires.</p>
 
         <TripCards trip="International" />
-        <div className="text-center mt-4">
-          <a
-            href="/international"
-            className="btn btn-dark px-4 py-2"
-          >
+        <div className="text-center mt-5">
+          <a href="/international" className="btn btn-primary px-4 py-3 rounded-pill shadow-sm">
             View All International Trips
           </a>
         </div>
@@ -22,15 +19,12 @@ const DestinationSection = () => {
 
       {/* Domestic Trips Section */}
       <section className="my-5">
-      <h2 className="display-7 fw-bold lh-2 mb-3 text-justify">Domestic Trips</h2>
-    <p className="fs-6 mb-4 text-justify">Airshine is your ultimate travel companion, offering personalised itineraies and unforgettable experiences. Whether you are seeking adventure, relaxation, or cultural exploration, Airhsine crafts journeys that cater to your unique preferences.</p>
+        <h2 className="display-5 fw-bold lh-base mb-4 text-center">Domestic Trips</h2>
+        <p className="fs-5 text-muted text-center px-md-5">Explore the beauty of your own land with Airshine. From hidden gems to popular destinations, we curate experiences that bring you closer to the culture and charm of your country.</p>
 
         <TripCards trip="Domestic" />
-        <div className="text-center mt-4">
-          <a
-            href="/domestic"
-            className="btn btn-dark px-4 py-2"
-          >
+        <div className="text-center mt-5">
+          <a href="/domestic" className="btn btn-primary px-4 py-3 rounded-pill shadow-sm">
             View All Domestic Trips
           </a>
         </div>
