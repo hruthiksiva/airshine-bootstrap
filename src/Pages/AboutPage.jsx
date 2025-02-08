@@ -1,7 +1,7 @@
 import React from 'react';
-import about1 from "../assets/images/about/about-1.jpg";
-import about2 from "../assets/images/about/about-2.jpg";
-import about3 from "../assets/images/about/about-3.jpg";
+import about1 from "../assets/images/about/main-about-2.jpg";
+import about3 from "../assets/images/about/main-about-1.jpg";
+import about2 from "../assets/images/about/about-3.jpg";
 import '../AboutPage.css'; // Import custom CSS for additional styling
 
 const AboutPage = () => {
@@ -15,6 +15,8 @@ const AboutPage = () => {
             src={about1}
             className="img-fluid rounded-lg hero-image"
             alt="Our Team"
+            width={1000}
+            height={1000}
           />
         </div>
         <div className="brand-body-text">

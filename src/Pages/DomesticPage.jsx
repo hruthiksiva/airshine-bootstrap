@@ -60,7 +60,7 @@ const DomesticPage = () => {
           ) : (
             <div className="text-center mt-5">
               <p className="h5 mb-4">
-                No trips found. Contact us to get the best offers for the state you want to visit.
+                Contact Us to get the best offers and customised package for the destinations you want to visit.
               </p>
               <a href="/contact" className="btn btn-primary">
                 Contact Us

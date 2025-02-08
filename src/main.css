@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap');
 
 
 .testimonial-card .card-up {
@@ -685,4 +684,10 @@ body {
 
 .btn-primary:hover {
   background-color: #002B5B; /* Deep Navy on hover */
+}
+
+
+.domestic-section{
+  background-color: #F8F9FA;
+
 }

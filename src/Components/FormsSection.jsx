@@ -44,7 +44,7 @@ const FormsSection = () => {
         {/* Form Section */}
         <div className='col-12 col-lg-5 order-2 order-lg-1 px-4 px-md-5'>
           <p className='badge custom-badge my-3'>LET'S CONNECT</p>
-          <h2 className='text-primary mb-4'>Ready to Discuss Your Project With Us?</h2>
+          <h2 className='text-primary mb-4'>Ready to Discuss Your Trip With Us?</h2>
 
           <form onSubmit={handleSubmit} className='custom-form'>
             <div className='mb-3'>
@@ -74,7 +74,7 @@ const FormsSection = () => {
             </div>
 
             <div className='mb-3'>
-              <label htmlFor='subject' className='form-label'>Subject</label>
+              <label htmlFor='subject' className='form-label'>Place You Want to Visit</label>
               <input
                 type='text'
                 id='subject'

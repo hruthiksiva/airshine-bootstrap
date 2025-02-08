@@ -1,8 +1,5 @@
 import React from 'react';
 
-
-
-
 const AboutUsSection = () => {
   return (
     <>
@@ -11,7 +8,7 @@ const AboutUsSection = () => {
           <div className="row align-items-center g-5">
             <div className="col-lg-6 order-lg-2">
               <img
-                src="src/assets/images/services/service-3.jpg"
+                src="src/assets/images/home/about-1.jpg"
                 className="about-image img-fluid w-100"
                 alt="Airshine Tours Experience"
                 loading="lazy"
@@ -31,7 +28,7 @@ const AboutUsSection = () => {
                 that cater to your unique preferences and transform your travel 
                 dreams into reality.
               </p>
-              <a href="/contact" className="explore-btn text-decoration-none">
+              <a href="/international" className="explore-btn text-decoration-none">
                 Start Exploring
               </a>
 

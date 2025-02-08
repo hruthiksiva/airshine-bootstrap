@@ -21,7 +21,7 @@ const FooterSection = () => {
             <NavLink to="https://twitter.com" className="text-white mx-2">
               <FontAwesomeIcon icon={faTwitter} />
             </NavLink>
-            <NavLink to="https://google.com" className="text-white mx-2">
+            <NavLink to="https://www.google.com/search?q=trichy+airshine+tours+%26+travels&sca_esv=cf2d2db4e4f86cc0&rlz=1C5GCEA_enIN1078IN1078&sxsrf=AHTn8zoYOxvC99MzAAlqcUfotmALsaNrzA%3A1739005192786&ei=CB2nZ__hL4y8seMP7eaL2A4&ved=0ahUKEwj_hZ2W27OLAxUMXmwGHW3zAusQ4dUDCBA&uact=5&oq=trichy+airshine+tours+%26+travels&gs_lp=Egxnd3Mtd2l6LXNlcnAiH3RyaWNoeSBhaXJzaGluZSB0b3VycyAmIHRyYXZlbHMyCxAAGIAEGLADGKIEMgsQABiABBiwAxiiBDIIEAAYsAMY7wUyCxAAGIAEGLADGKIEMgsQABiABBiwAxiiBEjfClAAWABwAXgAkAEAmAEAoAEAqgEAuAEDyAEAmAIBoAICmAMAiAYBkAYFkgcBMaAHAA&sclient=gws-wiz-serp" className="text-white mx-2">
               <FontAwesomeIcon icon={faGoogle} />
             </NavLink>
             <NavLink to="https://instagram.com" className="text-white mx-2">
@@ -73,9 +73,9 @@ const FooterSection = () => {
                 <h6 className="text-uppercase fw-bold" style={{ fontFamily: 'Playfair Display, serif' }}>Contact</h6>
                 <hr className="mb-4 mt-0 w-50 mx-auto" style={{ height: "2px", backgroundColor: '#0056B3', border: 'none' }} />
                 <p><NavLink to="/contact" className="text-white" style={{ fontFamily: 'Inter, sans-serif' }}>Fill the Form</NavLink></p>
-                <p><i className="fas fa-home me-2"></i> Trichy, Tamil Nadu.</p>
-                <p><i className="fas fa-envelope me-2"></i> contact@airshineonline.com</p>
-                <p><i className="fas fa-phone me-2"></i> +919585557593</p>
+                <p><NavLink to="/contact" className="text-white" style={{ fontFamily: 'Inter, sans-serif' }}>Trichy, Tamil Nadu.</NavLink></p>
+                <p><NavLink to="/contact" className="text-white" style={{ fontFamily: 'Inter, sans-serif' }}>contact@airshineonline.com</NavLink></p>
+                <p><NavLink to="/contact" className="text-white" style={{ fontFamily: 'Inter, sans-serif' }}>+919585557593</NavLink></p>
               </div>
             </div>
           </div>

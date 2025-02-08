@@ -31,9 +31,9 @@
       "id": "paris",
       "title": "Paris",
       "images": [
-        "../assets/images/trips/paris/paris-1.jpeg",
-        "../assets/images/trips/paris/paris-2.jpeg",
-        "../assets/images/trips/paris/paris-3.jpeg"
+        "../assets/images/trips/paris/paris-1.jpg",
+        "../assets/images/trips/paris/paris-1.jpg",
+        "../assets/images/trips/paris/paris-1.jpg"
       ],
       "itinerary": [
         "Arrival in Paris, check-in at the hotel, and enjoy a welcome dinner.",

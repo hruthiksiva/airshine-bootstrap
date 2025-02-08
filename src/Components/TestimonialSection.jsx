@@ -3,7 +3,7 @@ import hero1 from '../assets/images/home/hero-1.jpg';
 
 const TestimonialSection = () => {
   return (
-    <div>
+    <div className='domestic-section'>
       <div className="text-center p-3">
         <h1 className="mb-3 display-1">What Our Travelers Say</h1> 
         <p>Real experiences from happy travelers who explored the world with us.</p>
@@ -15,11 +15,11 @@ const TestimonialSection = () => {
             <div className="badge fw-normal bg-hero py-2 px-3 rounded-pill mb-2" style={{ backgroundColor: '#c8dcf4', color: '#002147' }}>
               TRAVEL STORIES&nbsp;
             </div>
-            <h2 className="display-7 fw-bold lh-2 mb-3 text-justify">"An Unforgettable Bali Adventure!"</h2>
+            <h2 className="display-7 fw-bold lh-2 mb-3 text-justify">An Unforgettable Bali Adventure!</h2>
             <p className="fs-6 mb-4 text-justify">
-              "From the moment I booked my trip with Airshine, everything was seamless. The itinerary was perfectly tailored, and the team was incredibly supportive throughout my journey. Exploring Bali’s breathtaking beaches, temples, and hidden gems felt effortless, thanks to their expertise. A truly unforgettable experience!"
+              From the moment I booked my trip with Airshine, everything was seamless. The itinerary was perfectly tailored, and the team was incredibly supportive throughout my journey. Exploring Bali’s breathtaking beaches, temples, and hidden gems felt effortless, thanks to their expertise. A truly unforgettable experience!
             </p>
-            <p className="fw-bold">— Sarah Thompson</p>
+            <p className="fw-bold">— Akansha Tirupati</p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <a className="btn px-4 py-2 contact-us" href="/contact">
                 Plan Your Trip

@@ -5,7 +5,7 @@
         "image": "src/assets/images/trips/paris/paris-1.jpg",
         "location": "Paris, France",
         "duration": "5 Days / 4 Nights",
-        "link": "/paris"
+        "link": "/tour/paris"
       },
       {
         "id": 2,

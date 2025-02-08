@@ -30,7 +30,7 @@ const InternationalPage = () => {
             <div className="col-md-8">
               <input
                 type="text"
-                placeholder="Search by location..."
+                placeholder="Search By Location..."
                 className="form-control search-input"
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
@@ -60,7 +60,7 @@ const InternationalPage = () => {
           ) : (
             <div className="text-center mt-5">
               <p className="h5 mb-4">
-                No trips found. Contact us to get the best offers for the country you want to visit.
+                Contact Us to get the best offers and customised packages for the destinations you want to visit.
               </p>
               <a href="/contact" className="btn btn-primary">
                 Contact Us

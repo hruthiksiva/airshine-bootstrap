@@ -1,9 +1,17 @@
-import service1 from "../assets/images/services/service-1.jpg"
-import service2 from "../assets/images/services/service-2.jpg"
-import service3 from "../assets/images/services/service-3.jpg"
-import service4 from "../assets/images/services/service-4.jpg"
-import service5 from "../assets/images/services/service-5.jpg"
-import service6 from "../assets/images/services/service-6.jpg"
+import service0 from "../assets/images/services/main-service-0.jpg"
+// import service1 from "../assets/images/services/service-1.jpg"
+import service2 from "../assets/images/services/main-service-2.jpg"
+import service3 from "../assets/images/services/main-service-3.jpg"
+import service4 from "../assets/images/services/main-service-4.jpg"
+import service5 from "../assets/images/services/main-service-5.jpg"
+import service6 from "../assets/images/services/main-service-6.jpg"
+import service1 from "../assets/images/services/main-service-1.jpg"
+// import service2 from "../assets/images/services/service-2.jpg"
+// import service3 from "../assets/images/services/service-3.jpg"
+// import service4 from "../assets/images/services/service-4.jpg"
+// import service5 from "../assets/images/services/service-5.jpg"
+// import service6 from "../assets/images/services/service-6.jpg"
+import SearchBar from "../Components/SearchBar"
 
 const OurServices = () => {
     return (
@@ -13,7 +21,7 @@ const OurServices = () => {
             <div
                   className="hero-section text-white text-center d-flex flex-column justify-content-center align-items-center position-relative"
                   style={{
-                    backgroundImage: `url(${service1})` ,
+                    backgroundImage: `url(${service0})` ,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     height: '90vh',
@@ -29,76 +37,7 @@ const OurServices = () => {
                     <p className="fs-4">Your Journey Starts Here</p>
                   </div>
             
-                  <div
-                    className="search-box position-absolute bottom-0 start-50 translate-middle-x w-100 p-4 bg-white rounded shadow-lg"
-                    style={{ maxWidth: '1100px', marginBottom: '50px' }}
-                  >
-                    <form className="row g-4 align-items-center">
-                      <div className="col-md-3">
-                        <label htmlFor="destination" className="form-label fw-bold text-secondary">
-                          Location
-                        </label>
-                        <select
-                          id="destination"
-                          className="form-select form-control-lg"
-                          defaultValue=""
-                          required
-                        >
-                          <option value="" disabled>
-                            Choose your destination
-                          </option>
-                          <option value="paris">Paris</option>
-                          <option value="dubai">Dubai</option>
-                          <option value="maldives">Maldives</option>
-                          <option value="tokyo">Tokyo</option>
-                        </select>
-                      </div>
-            
-                      <div className="col-md-2">
-                        <label htmlFor="fromDate" className="form-label fw-bold text-secondary">
-                          From Date
-                        </label>
-                        <input
-                          type="date"
-                          className="form-control form-control-lg"
-                          id="fromDate"
-                          required
-                        />
-                      </div>
-            
-                      <div className="col-md-2">
-                        <label htmlFor="toDate" className="form-label fw-bold text-secondary">
-                          To Date
-                        </label>
-                        <input
-                          type="date"
-                          className="form-control form-control-lg"
-                          id="toDate"
-                          required
-                        />
-                      </div>
-            
-                      <div className="col-md-2">
-                        <label htmlFor="people" className="form-label fw-bold text-secondary">
-                          Persons
-                        </label>
-                        <input
-                          type="number"
-                          className="form-control form-control-lg"
-                          id="people"
-                          placeholder="1"
-                          min="1"
-                          required
-                        />
-                      </div>
-            
-                      <div className="col-md-3 d-grid">
-                        <button type="submit" className="btn btn-primary btn-lg">
-                          Consult
-                        </button>
-                      </div>
-                    </form>
-                  </div>
+                  <SearchBar />
                 </div>
           </section>
   

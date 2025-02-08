@@ -16,6 +16,7 @@ const DestinationSection = () => {
           </a>
         </div>
       </section>
+      
 
       {/* Domestic Trips Section */}
       <section className="my-5">

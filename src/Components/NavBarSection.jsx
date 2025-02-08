@@ -35,9 +35,7 @@ const NavbarSection = () => {
             <li className="nav-item">
               <Link className="nav-link mx-2" to="/">Home</Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link mx-2" to="/about">About</Link>
-            </li>
+            
             <li
               className={`nav-item dropdown ${dropdownOpen ? 'show' : ''}`}
               onMouseEnter={handleMouseEnter}
@@ -75,6 +73,9 @@ const NavbarSection = () => {
                 <li><Link className="dropdown-item" to="/domestic">Domestic Trips</Link></li>
                 <li><Link className="dropdown-item" to="/international">International Trips</Link></li>
               </ul>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link mx-2" to="/about">About</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link mx-2" to="/contact">Contact</Link>

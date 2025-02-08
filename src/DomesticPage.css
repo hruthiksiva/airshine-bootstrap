@@ -14,7 +14,7 @@ body, p, .card-text, .form-control {
 
 /* Hero Section */
 .domestic-hero {
-  background-image: url('path-to-your-hero-image.jpg'); /* Replace with actual image path */
+  background-image: url('src/assets/images/trips/domestic-2.jpg'); /* Replace with actual image path */
   background-size: cover;
   background-position: center;
   height: 60vh;
