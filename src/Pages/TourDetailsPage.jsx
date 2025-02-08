@@ -19,6 +19,7 @@ const TourDetailsPage = () => {
         <div className="col-md-8">
           <div id="tourCarousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
+              
               {tour.images.map((image, index) => (
                 <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
                   <img src={image} className="d-block w-100 rounded" alt={`Place ${index + 1}`} />

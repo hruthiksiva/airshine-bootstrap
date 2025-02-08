@@ -12,44 +12,44 @@
         "image": "src/assets/images/trips/tokyo/tokyo-1.jpg",
         "location": "Tokyo, Japan",
         "duration": "7 Days / 6 Nights",
-        "link": "/tokyo"
+        "link": "/tour/tokyo"
       },
       {
         "id": 3,
         "image": "src/assets/images/trips/usa/usa-1.jpg",
         "location": "New York, USA",
         "duration": "4 Days / 3 Nights",
-        "link": "/newyork"
+        "link": "/tour/newyork"
       }
     ],
     "international": [
     {
       "id": 1,
-      "image": "src/assets/images/trips/paris/paris-1.jpg",
-      "location": "Paris, France",
+      "image": "/assets/images/dubai/dubai 1.jpg",
+      "location": "Dubai, UAE",
       "duration": "5 Days / 4 Nights",
-      "link": "/paris"
+      "link": "/tour/dubai"
     },
     {
       "id": 2,
       "image": "src/assets/images/trips/tokyo/tokyo-1.jpg",
       "location": "Tokyo, Japan",
       "duration": "7 Days / 6 Nights",
-      "link": "/tokyo"
+      "link": "/tour/tokyo"
     },
     {
       "id": 3,
       "image": "src/assets/images/trips/usa/usa-1.jpg",
       "location": "New York, USA",
       "duration": "4 Days / 3 Nights",
-      "link": "/newyork"
+      "link": "/tour/newyork"
     },
     {
-      "id": 4,
-      "image": "image_url_3",
-      "location": "New York, USA",
-      "duration": "4 Days / 3 Nights",
-      "link": "/newyork"
+      "id": 1,
+      "image": "src/assets/images/trips/paris/paris-1.jpg",
+      "location": "Paris, France",
+      "duration": "5 Days / 4 Nights",
+      "link": "/tour/paris"
     }
   ],
   "domestic":[
@@ -58,21 +58,21 @@
       "image": "src/assets/images/trips/paris/paris-1.jpg",
       "location": "Paris, France",
       "duration": "5 Days / 4 Nights",
-      "link": "/paris"
+      "link": "/tour/paris"
     },
     {
       "id": 2,
       "image": "src/assets/images/trips/tokyo/tokyo-1.jpg",
       "location": "Tokyo, Japan",
       "duration": "7 Days / 6 Nights",
-      "link": "/tokyo"
+      "link": "/tour/tokyo"
     },
     {
       "id": 3,
       "image": "src/assets/images/trips/usa/usa-1.jpg",
       "location": "New York, USA",
       "duration": "4 Days / 3 Nights",
-      "link": "/newyork"
+      "link": "/tour/newyork"
     }
   ]
 }

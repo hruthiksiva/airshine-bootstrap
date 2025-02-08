@@ -3,9 +3,9 @@
       "id": "dubai",
       "title": "Dubai",
       "images": [
-        "../assets/images/trips/dubai/dubai-1.jpeg",
-        "../assets/images/trips/dubai/dubai-2.jpeg",
-        "../assets/images/trips/dubai/dubai-3.jpeg"
+        "/assets/images/dubai/dubai 1.jpg",
+        "/assets/images/dubai/dubai 2.jpeg",
+        "/assets/images/dubai/dubai 3.jpg"
       ],
       "itinerary": [
         "Arrival in Dubai, check-in at the hotel, and enjoy a welcome dinner.",
