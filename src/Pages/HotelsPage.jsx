@@ -47,10 +47,11 @@ const HotelsPage = () => {
               </div>
             </div>
           </div>
-          <FormsSection />
-          <ContactSection />
+          
         </div>
       </section>
+      <FormsSection />
+          <ContactSection />
     </>
   );
 };

@@ -51,11 +51,12 @@ const InsurancePage = () => {
             </div>
           </div>
           <div className="mt-5">
-            <FormsSection />
-            <ContactSection />
+            
           </div>
         </div>
       </section>
+      <FormsSection />
+            <ContactSection />
     </>
   );
 };

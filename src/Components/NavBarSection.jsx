@@ -65,15 +65,16 @@ const NavbarSection = () => {
             >
               <Link
                 className="nav-link mx-2 dropdown-toggle"
-                to="/domestic"
+                to="/international"
                 role="button"
                 aria-expanded={dropdownOpen ? 'true' : 'false'}
               >
                 Holiday
               </Link>
               <ul className={`dropdown-menu ${dropdownOpen ? 'show' : ''}`}>
+              <li><Link className="dropdown-item" to="/international">International Trips</Link></li>
+
                 <li><Link className="dropdown-item" to="/domestic">Domestic Trips</Link></li>
-                <li><Link className="dropdown-item" to="/international">International Trips</Link></li>
               </ul>
             </li>
             <li className="nav-item">

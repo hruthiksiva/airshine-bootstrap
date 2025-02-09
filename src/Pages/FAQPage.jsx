@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import faq from '../assets/data/faq.json';
+import FormsSection from '../Components/FormsSection';
+import ContactSection from '../Components/ContactSection';
 
 const FAQPage = () => {
   const [faqs, setFaqs] = useState([]);
@@ -10,6 +12,7 @@ const FAQPage = () => {
   }, []);
 
   return (
+    <>
     <div className="min-vh-100 d-flex justify-content-center align-items-center bg-light py-5">
       <div className="container">
         <h1 className="text-center display-4 font-weight-bold mb-5">Frequently Asked Questions</h1>
@@ -44,7 +47,12 @@ const FAQPage = () => {
           ))}
         </div>
       </div>
+      
     </div>
+    <FormsSection />
+    <ContactSection />
+    </>
+    
   );
 };
 

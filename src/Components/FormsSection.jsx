@@ -28,18 +28,31 @@ const FormsSection = () => {
         
         {/* Contact Image */}
         <div className='col-12 col-lg-5 order-1 order-lg-2 text-center'>
-          <img 
-            src={contacthero} 
-            className='img-fluid rounded-4 shadow-lg' 
-            alt='Contact Hero' 
-            style={{
-              width: '80%',
-              height: '100%',
-              objectFit: 'cover',
-              objectPosition: 'center'
-            }} 
-          />
-        </div>
+  <img 
+    src={contacthero} 
+    className='img-fluid rounded-4 shadow-lg d-block mx-auto' 
+    alt='Contact Hero' 
+    style={{
+      width: '100%', // Default full width
+      height: '100%',
+      objectFit: 'cover',
+      objectPosition: 'center',
+      maxWidth: 800,
+      maxHeight: 1000
+    }}
+  />
+</div>
+
+<style>
+{`
+  @media (min-width: 992px) { /* Applies only for desktop (lg and above) */
+    img {
+      width: 80% !important;  /* Cropped left and right */
+    }
+  }
+`}
+</style>
+
 
         {/* Form Section */}
         <div className='col-12 col-lg-5 order-2 order-lg-1 px-4 px-md-5'>

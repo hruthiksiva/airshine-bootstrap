@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import tripsData from '../assets/data/trips.json';
+import tripsData from '../assets/data/database.json';
 
 const SearchBar = () => {
   const [locations, setLocations] = useState([]);
@@ -15,10 +15,7 @@ const SearchBar = () => {
 
   // Load locations dynamically from JSON
   useEffect(() => {
-    const allLocations = [
-      ...tripsData.international.map(trip => trip.location),
-      ...tripsData.domestic.map(trip => trip.location),
-    ];
+    const allLocations = tripsData.map(trip => trip.location); // Extract locations
     setLocations([...new Set(allLocations)]); // Remove duplicates
   }, []);
 
