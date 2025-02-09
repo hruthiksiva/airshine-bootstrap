@@ -1,17 +1,17 @@
 import React from 'react';
 import { useParams } from 'react-router-dom'; // For dynamic routing
-import tourData from '../assets/data/tours.json'; // Import the JSON file
+import tourData from '../assets/data/database.json'; // Import the JSON file
 
 const TourDetailsPage = () => {
   const { id } = useParams(); // Get the tour ID from the URL
-  const tour = tourData.find((tour) => tour.id === id); // Find the tour by ID
+  const tour = tourData.find((tour) => tour.order === id); // Find the tour by ID
 
   if (!tour) {
     return <div className="container mt-4">Tour not found!</div>;
   }
 
   return (
-    <div className="container mt-4">
+    <div className="container mt-4 mb-5">
       <h1 className="text-center display-4 mb-5">{tour.title}</h1>
 
       <div className="row g-4">

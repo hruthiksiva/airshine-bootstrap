@@ -1,7 +1,7 @@
 import React from 'react';
 import about1 from "../assets/images/about/main-about-2.jpg";
 import about3 from "../assets/images/about/main-about-1.jpg";
-import about2 from "../assets/images/about/about-3.jpg";
+import about2 from "../assets/images/about/main-about-3.jpg";
 import '../AboutPage.css'; // Import custom CSS for additional styling
 
 const AboutPage = () => {
@@ -13,10 +13,8 @@ const AboutPage = () => {
         <div className="d-flex justify-content-center mb-4">
           <img
             src={about1}
-            className="img-fluid rounded-lg hero-image"
+            className="img-fluid rounded-lg "
             alt="Our Team"
-            width={1000}
-            height={1000}
           />
         </div>
         <div className="brand-body-text">
@@ -62,6 +60,7 @@ const AboutPage = () => {
               src={about3}
               alt="Executive Director"
               className="img-fluid rounded-lg shadow-sm mb-4 brand-image"
+
             />
             <p className="brand-body-text">“Excellence is a result of high intention, sincere effort, and intelligent execution.” With our humble beginning in 1995, after 3 decades of experience in the tourism industry, we at Trichy Airshine Tours & Travels prioritise our customers preferences and use a personalized approach to ensure every trip is perfect. Accessibility and Reliability are our promises to you, with quality at the core of everything we do.</p>
             <p className="brand-body-text">We offer a diverse range of Domestic and International Outbound tour packages tailored to meet your needs. As a One Stop Shop for all your travel requirements, our expert team is dedicated to making your travel experience seamless and memorable.</p>

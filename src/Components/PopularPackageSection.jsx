@@ -11,7 +11,7 @@ const PopularPackageSection = () => {
 
         <TripCards trip="Popular" />
         <div className="text-center mt-5">
-          <a href="/popular" className="btn btn-primary px-4 py-3 rounded-pill shadow-sm">
+          <a href="/international" className="btn btn-primary px-4 py-3 rounded-pill shadow-sm">
             View All Popular Packages
           </a>
         </div>

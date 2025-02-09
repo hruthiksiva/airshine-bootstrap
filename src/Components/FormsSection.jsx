@@ -60,21 +60,10 @@ const FormsSection = () => {
               />
             </div>
 
-            <div className='mb-3'>
-              <label htmlFor='email' className='form-label'>Email</label>
-              <input
-                type='email'
-                id='email'
-                name='email'
-                className='form-control custom-input'
-                value={formData.email}
-                onChange={handleChange}
-                required
-              />
-            </div>
+            
 
             <div className='mb-3'>
-              <label htmlFor='subject' className='form-label'>Place You Want to Visit</label>
+              <label htmlFor='subject' className='form-label'>Mobile Number</label>
               <input
                 type='text'
                 id='subject'
@@ -87,7 +76,19 @@ const FormsSection = () => {
             </div>
 
             <div className='mb-3'>
-              <label htmlFor='message' className='form-label'>Message</label>
+              <label htmlFor='email' className='form-label'>Email (optional)</label>
+              <input
+                type='email'
+                id='email'
+                name='email'
+                className='form-control custom-input'
+                value={formData.email}
+                onChange={handleChange}
+              />
+            </div>
+
+            <div className='mb-3'>
+              <label htmlFor='message' className='form-label'>Places You Want to Visit</label>
               <textarea
                 id='message'
                 name='message'

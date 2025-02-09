@@ -1,17 +1,15 @@
 import React from 'react';
-import tripData from '../assets/data/trips.json';
-
-
+import tripData from '../assets/data/database.json';
 
 const TripCards = ({ trips }) => {
   let filteredTrips = [];
-  
+
   if (trips === 'Domestic') {
-    filteredTrips = tripData.domestic;
+    filteredTrips = tripData.filter((trip) => trip.tag.toLowerCase() === 'domestic');
   } else if (trips === 'International') {
-    filteredTrips = tripData.international;
+    filteredTrips = tripData.filter((trip) => trip.tag.toLowerCase() === 'international');
   } else {
-    filteredTrips = tripData.popular;
+    filteredTrips = tripData; // Show all trips if no filter is applied
   }
 
   return (
@@ -31,7 +29,7 @@ const TripCards = ({ trips }) => {
                 <h3 className="trip-location">{trip.location}</h3>
                 <p className="trip-duration mb-4">{trip.duration}</p>
                 <div className="mt-auto">
-                  <a href="/tourdetails" className="explore-btn d-inline-block">
+                  <a href={trip.link} className="explore-btn d-inline-block">
                     More
                   </a>
                 </div>

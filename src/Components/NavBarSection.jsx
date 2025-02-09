@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import logoimg from '../assets/images/logo.jpg';
 
 const NavbarSection = () => {
@@ -82,7 +84,8 @@ const NavbarSection = () => {
             </li>
           </ul>
           <form className="d-flex" role="search">
-            <Link to="/contact" className="btn btn-primary">Call</Link>
+            
+            <Link to="tel:+919585557593" className="btn btn-primary"><FontAwesomeIcon icon={faPhone} /> +91 95855 57593</Link>
           </form>
         </div>
       </div>
