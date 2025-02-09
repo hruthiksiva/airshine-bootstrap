@@ -239,7 +239,16 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
   }
 
-
+  .metrics-section {
+    
+    padding: 80px 0;
+  }
+  .metric-sub-section{
+    background-color: #002B5B;
+    border-radius: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    height: 100%;
+  }
 
   .why-section {
     background-color: #002B5B;

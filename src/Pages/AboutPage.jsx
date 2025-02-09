@@ -3,6 +3,7 @@ import about1 from "../assets/images/about/main-about-2.jpg";
 import about3 from "../assets/images/about/main-about-1.jpg";
 import about2 from "../assets/images/about/main-about-3.jpg";
 import '../AboutPage.css'; // Import custom CSS for additional styling
+import MetricsSection from '../Components/MetricSection';
 
 const AboutPage = () => {
   return (
@@ -38,6 +39,9 @@ const AboutPage = () => {
             <p className="brand-body-text">Our aim is to create unforgettable journeys by offering personalised, innovative travel solutions tailored to your unique preferences and needs. Our dedicated team of travel experts are here to guide and support you every step of the way, making us your trusted travel partner in every adventure. At Trichy Airshine Tours & Travels, we believe in the joy of discovery and the power of travel to connect us all.</p>
           </div>
         </div>
+      </div>
+      <div className="bg-white rounded-lg shadow-lg p-5 mb-5">
+        <MetricsSection />
       </div>
 
       {/* Managing Director's & Executive Director's Desk */}
