@@ -11,7 +11,9 @@ const ContactCard = () => {
           Let us craft a journey that’s unforgettable. Explore new destinations with seamless travel planning and personalized experiences.
         </div>
         <a className="col-12 fw-medium" style={{ textDecoration: 'none', color: '#0056B3', fontSize: '18px' }}>
-          Plan Your Trip Today &gt;
+          <a href="/international" className="explore-btn text-decoration-none">
+            Plan Your Trip Today
+              </a>
         </a>
       </div>
     </div>

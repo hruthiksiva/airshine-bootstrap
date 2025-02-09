@@ -4,7 +4,7 @@ import hero1 from '../assets/images/home/hero-1.jpg';
 const TestimonialSection = () => {
   return (
     <div className='domestic-section'>
-      <div className="text-center p-3">
+      <div className="text-center p-4">
         <h1 className="mb-3 display-1">What Our Travelers Say</h1> 
         <p>Real experiences from happy travelers who explored the world with us.</p>
       </div>
@@ -21,9 +21,10 @@ const TestimonialSection = () => {
             </p>
             <p className="fw-bold">— Akansha Tirupati</p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a className="btn px-4 py-2 contact-us" href="/contact">
-                Plan Your Trip
+            <a href="/international" className="explore-btn text-decoration-none">
+            Plan Your Trip
               </a>
+
             </div>
           </div>
           <div className="col-md-12 col-sm-12 col-lg-6">
