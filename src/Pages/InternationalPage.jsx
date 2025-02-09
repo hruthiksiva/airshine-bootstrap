@@ -1,13 +1,15 @@
 import { useState } from 'react';
-import trips from '../assets/data/trips.json';
+import trips from '../assets/data/database.json';
 import ContactCard from '../Components/ContactCard';
 import '../InternationalPage.css'; // Import custom CSS for additional styling
 
 const InternationalPage = () => {
-  const tripsData = trips.international;
+  // Filter trips to include only international ones based on "tag"
+  const internationalTrips = trips.filter(trip => trip.tag === 'international');
   const [searchTerm, setSearchTerm] = useState('');
 
-  const filteredTrips = tripsData.filter(trip =>
+  // Filter trips based on search input
+  const filteredTrips = internationalTrips.filter(trip =>
     trip.location.toLowerCase().includes(searchTerm.toLowerCase())
   );
 

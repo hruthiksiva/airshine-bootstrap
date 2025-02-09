@@ -1,13 +1,15 @@
 import { useState } from 'react';
-import trips from '../assets/data/trips.json';
+import trips from '../assets/data/database.json';
 import ContactCard from '../Components/ContactCard';
 import '../DomesticPage.css';
 
 const DomesticPage = () => {
-  const tripsData = trips.domestic;
+  // Filter trips to include only international ones based on "tag"
+  const domesticTrips = trips.filter(trip => trip.tag === 'domestic');
   const [searchTerm, setSearchTerm] = useState('');
 
-  const filteredTrips = tripsData.filter(trip =>
+  // Filter trips based on search input
+  const filteredTrips = domesticTrips.filter(trip =>
     trip.location.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
