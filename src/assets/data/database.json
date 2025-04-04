@@ -1,37 +1,5 @@
 [
-    {
-      "order":"dubai",
-      "link": "tour/dubai",
-      "image": "src/assets/images/trips/dubai/dubai 1.jpg",
-      "location": "Dubai, UAE",
-      "tag":"domestic",
-      "title": "Dubai",
-      "duration":"5 Days / 4 Nights",
-      "images": [
-        "/assets/images/dubai/dubai 1.jpg",
-        "/assets/images/dubai/dubai 2.jpeg",
-        "/assets/images/dubai/dubai 3.jpg"
-      ],
-      "itinerary": [
-        "Arrival in Dubai, check-in at the hotel, and enjoy a welcome dinner.",
-        "Explore the Burj Khalifa, Dubai Mall, and the Dubai Fountain.",
-        "Desert safari with dune bashing, camel rides, and a traditional BBQ dinner.",
-        "Visit Palm Jumeirah, Atlantis The Palm, and enjoy water sports.",
-        "Free day for shopping and leisure, followed by a farewell dinner."
-      ],
-      "included": [
-        "Accommodation in a 5-star hotel",
-        "Daily breakfast and dinner",
-        "Transportation in a private vehicle",
-        "Guided tours and entrance fees"
-      ],
-      "excluded": [
-        "International flights",
-        "Travel insurance",
-        "Personal Expenses",
-        "Gratuities"
-      ]
-    },
+
 
     {
       "link": "tour/paris",
@@ -99,7 +67,626 @@
           "Personal expenses",
           "Gratuities"
         ]
-      }
+      },
+    
+    {
+        "link": "tour/bali",
+        "order": "bali",
+        "tag": "international",
+        "location": "Bali, Indonesia",
+        "title": "Adventurous Bali",
+        "duration": "6 Days / 5 Nights",
+        "image": "src/assets/images/trips/bali/bali-1.jpg",
+        "images": [
+            "../assets/images/trips/bali/bali-1.jpg",
+            "../assets/images/trips/bali/bali-2.jpg",
+            "../assets/images/trips/bali/bali-3.jpg"
+        ],
+        "itinerary": [
+            "Arrival in Bali, check-in at the resort, refresh, and relax with a beachside stroll.",
+            "Explore Ubud & Kintamani, enjoy the stunning view of Lake Batur with the Agung volcano backdrop, visit the Elephant Cave and Tirta Empul springs.",
+            "Tour the Tanah Lot Temple, a rock formation home to the ancient Hindu temple of Pura Tanah Lot with rich mythological history.",
+            "Enjoy water sports at Tanjung Benoa Beach, including jet skiing, parasailing, and scuba diving.",
+            "Visit Bali Safari & Marine Park, home to over 120 species, including rare and endangered animals like the Komodo Dragon and Orangutan.",
+            "Transfer to the airport for departure, taking home unforgettable memories."
+        ],
+        "included": [
+            "Accommodation in a 4-star resort",
+            "Daily breakfast",
+            "Transportation in a private vehicle",
+            "Guided tours and entrance fees"
+        ],
+        "excluded": [
+            "International flights",
+            "Travel insurance",
+            "Personal expenses",
+            "Gratuities"
+        ]
+    },
+
+
+    {
+      "link": "tour/sri-lanka",
+      "order": "sri-lanka",
+      "tag": "international",
+      "location": "Sri Lanka",
+      "title": "Mesmerising Sri Lanka",
+      "duration": "4 Days / 3 Nights",
+      "image": "src/assets/images/trips/sri-lanka/sri-lanka-1.jpg",
+      "images": [
+          "../assets/images/trips/sri-lanka/sri-lanka-1.jpg",
+          "../assets/images/trips/sri-lanka/sri-lanka-2.jpg",
+          "../assets/images/trips/sri-lanka/sri-lanka-3.jpg"
+      ],
+      "itinerary": [
+          "Arrival at Bandaranaike International Airport, transfer to Kandy, check-in at the hotel, visit the Elephant Orphanage, and enjoy the Kandy Cultural Show in the evening.",
+          "Guided tour of Kandy including Temple of Tooth Relic, Peradeniya Botanical Garden, and Gems Gallery. Proceed to Bentota for beach activities and water sports like jet skiing, Banana Boat Ride, and Tube Ride.",
+          "Guided tour of Bentota including Galle Fort, scenic beaches, and Kosgoda Turtle Hatchery. Transfer to Colombo for an overnight stay.",
+          "Breakfast at the hotel, check-out, and transfer to the airport for departure."
+      ],
+      "included": [
+          "Accommodation in a 4-star hotel",
+          "Daily breakfast",
+          "Transportation in a private vehicle",
+          "Guided tours and entrance fees"
+      ],
+      "excluded": [
+          "International flights",
+          "Travel insurance",
+          "Personal expenses",
+          "Gratuities"
+      ]
+    },
+    {
+      "link": "tour/thailand",
+      "order": "thailand",
+      "tag": "international",
+      "location": "Thailand",
+      "title": "Alluring Thailand",
+      "duration": "5 Days / 4 Nights",
+      "image": "src/assets/images/trips/thailand/thailand-1.jpg",
+      "images": [
+          "../assets/images/trips/thailand/thailand-1.jpg",
+          "../assets/images/trips/thailand/thailand-2.jpg",
+          "../assets/images/trips/thailand/thailand-3.jpg"
+      ],
+      "itinerary": [
+          "Arrival in Bangkok, transfer to Pattaya, check-in at the hotel, and refresh. Experience the Alcazar Show in the evening.",
+          "Coral Island Tour by speedboat, explore stunning coral reefs, and enjoy adventure sports like parasailing. Evening free to explore Pattaya.",
+          "Transfer to Bangkok for a Temple Tour including the Temple of the Marble Buddha, the Temple of the Golden Buddha, and the Gems Gallery. Enjoy a Chao Phraya River Dinner Cruise in the evening.",
+          "Visit Safari World and Marine Park to see exotic animals like deer, giraffes, zebras, tigers, and sea creatures, along with entertaining shows featuring dolphins, monkeys, birds, and seals.",
+          "Breakfast at the hotel, check-out, and transfer to the airport for departure."
+      ],
+      "included": [
+          "Accommodation in a 4-star hotel",
+          "Daily breakfast",
+          "Transportation in a private vehicle",
+          "Guided tours and entrance fees"
+      ],
+      "excluded": [
+          "International flights",
+          "Travel insurance",
+          "Personal expenses",
+          "Gratuities"
+      ]
+    },
+    {
+      "link": "tour/hong-kong",
+      "order": "hong-kong",
+      "tag": "international",
+      "location": "Hong Kong",
+      "title": "Scenic Hong Kong",
+      "duration": "5 Days / 4 Nights",
+      "image": "src/assets/images/trips/hong-kong/hong-kong-1.jpg",
+      "images": [
+          "../assets/images/trips/hong-kong/hong-kong-1.jpg",
+          "../assets/images/trips/hong-kong/hong-kong-2.jpg",
+          "../assets/images/trips/hong-kong/hong-kong-3.jpg"
+      ],
+      "itinerary": [
+          "Arrival in Hong Kong, check-in at the hotel, refresh, and explore the city at your own pace.",
+          "Guided City Tour visiting hotspots like the School of Yaumatei, Tin Hau Temple, West Kowloon Art Park, Hong Kong Palace Museum, and Xiqu Center. Enjoy shopping at Tsim Sha Tsui.",
+          "Experience a Peak Tram ride with breathtaking city views, visit Madame Tussauds Museum, and take pictures with celebrity replicas. Enjoy an evening ferry ride at Victoria Harbor and explore the Night Market.",
+          "Spend the day at Hong Kong Disneyland, immersing yourself in Disney magic with adventure rides and memorable experiences with favorite Disney characters.",
+          "Breakfast at the hotel, check-out, and transfer to the airport for departure."
+      ],
+      "included": [
+          "Accommodation in a 4-star hotel",
+          "Daily breakfast",
+          "Transportation in a private vehicle",
+          "Guided tours and entrance fees"
+      ],
+      "excluded": [
+          "International flights",
+          "Travel insurance",
+          "Personal expenses",
+          "Gratuities"
+      ]
+  },
+    {
+      "link": "tour/maldives",
+      "order": "maldives",
+      "tag": "international",
+      "location": "Maldives",
+      "title": "Blissful Maldives",
+      "duration": "4 Days / 3 Nights",
+      "image": "src/assets/images/trips/maldives/maldives-1.jpg",
+      "images": [
+          "../assets/images/trips/maldives/maldives-1.jpg",
+          "../assets/images/trips/maldives/maldives-2.jpg",
+          "../assets/images/trips/maldives/maldives-3.jpg"
+      ],
+      "itinerary": [
+          "Arrival at Male International Airport and transfer to the resort via ferry.",
+          "Explore the surroundings and enjoy water sports. Experience the mesmerizing geography with reefs, jewel-like islands, and pristine white sands.",
+          "Snorkeling at Biyadhoo Reef and Turtle Reef, followed by a visit to the sandbank and dolphin watching experience.",
+          "Check-out from the hotel and transfer to the airport for departure with cherished memories."
+      ],
+      "included": [
+          "Accommodation in a 4-star resort",
+          "Daily breakfast",
+          "Transportation via ferry",
+          "Water sports and guided excursions"
+      ],
+      "excluded": [
+          "International flights",
+          "Travel insurance",
+          "Personal expenses",
+          "Gratuities"
+      ]
+  },
+  {
+    "link": "tour/bali-2",
+    "order": "bali",
+    "tag": "international",
+    "location": "Bali, Indonesia",
+    "title": "Adventurous Bali",
+    "duration": "6 Days / 5 Nights",
+    "image": "src/assets/images/trips/bali/bali-1.jpg",
+    "images": [
+        "../assets/images/trips/bali/bali-1.jpg",
+        "../assets/images/trips/bali/bali-2.jpg",
+        "../assets/images/trips/bali/bali-3.jpg"
+    ],
+    "itinerary": [
+        "Arrival in Bali, check-in at the resort, refresh, and enjoy a stroll through the beachside.",
+        "Explore Ubud & Kintamani. Enjoy the stunning view of Lake Batur with Agung volcano as the backdrop. Visit the elephant cave and springs of Tirta Empul at Tampaksiring.",
+        "Visit the famous Tanah Lot Temple, a rock formation rich with Bali's mythological history.",
+        "Enjoy water sports at Tanjung Benoa Beach, including jet skiing, parasailing, and scuba diving.",
+        "Visit Bali Safari & Marine Park, home to over a thousand animals, including rare and endangered species like the Komodo Dragons and Orangutans.",
+        "Check-out from the hotel and transfer to the airport for departure with cherished memories."
+    ],
+    "included": [
+        "Accommodation in a 4-star resort",
+        "Daily breakfast",
+        "Transportation in a private vehicle",
+        "Guided tours and entrance fees"
+    ],
+    "excluded": [
+        "International flights",
+        "Travel insurance",
+        "Personal expenses",
+        "Gratuities"
+    ]
+  },
+  {
+    "link": "tour/bali-4n5d",
+    "order": "bali-4n5d",
+    "tag": "international",
+    "location": "Bali, Indonesia",
+    "title": "Picturesque Bali",
+    "duration": "5 Days / 4 Nights",
+    "image": "src/assets/images/trips/bali/bali-1.jpg",
+    "images": [
+        "../assets/images/trips/bali/bali-1.jpg",
+        "../assets/images/trips/bali/bali-2.jpg",
+        "../assets/images/trips/bali/bali-3.jpg"
+    ],
+    "itinerary": [
+        "Arrival in Bali, check-in at the resort, refresh, and enjoy a stroll through the beachside.",
+        "Explore Ubud & Kintamani. Enjoy the stunning view of Lake Batur with Agung volcano as the backdrop. Visit the elephant cave and springs of Tirta Empul at Tampaksiring.",
+        "Visit the famous Tanah Lot Temple, a rock formation rich with Bali's mythological history.",
+        "Enjoy water sports at Tanjung Benoa Beach, including jet skiing, parasailing, and scuba diving.",
+        "Check-out from the hotel and transfer to the airport for departure with cherished memories."
+    ],
+    "included": [
+        "Accommodation in a 4-star resort",
+        "Daily breakfast",
+        "Transportation in a private vehicle",
+        "Guided tours and entrance fees"
+    ],
+    "excluded": [
+        "International flights",
+        "Travel insurance",
+        "Personal expenses",
+        "Gratuities"
+    ]
+  },
+  {
+    "link": "tour/hong-kong-5n6d",
+    "order": "hong-kong-5n6d",
+    "tag": "international",
+    "location": "Hong Kong",
+    "title": "Discovering Hong Kong’s Hidden Beauty",
+    "duration": "6 Days / 5 Nights",
+    "image": "src/assets/images/trips/hong-kong/hk-1.jpg",
+    "images": [
+        "../assets/images/trips/hong-kong/hk-1.jpg",
+        "../assets/images/trips/hong-kong/hk-2.jpg",
+        "../assets/images/trips/hong-kong/hk-3.jpg"
+    ],
+    "itinerary": [
+        "Arrival in Hong Kong, check-in at the hotel, refresh, and explore the city on your own.",
+        "Visit famous city hotspots like the School of Yaumatei, Tin Hau Temple & West Kowloon Art Park. Enjoy a Peak Tram ride, visit Madame Tussauds Museum, experience a ferry ride at Victoria's harbor, and explore the Night Market.",
+        "Spend the whole day at Ocean Park, featuring thrilling rides, carnival games, cable rides, and VR experiences.",
+        "Experience the magic of Hong Kong Disneyland with adventure rides and Disney character interactions.",
+        "Take a ferry ride to Macau, known for its casinos, giant malls, and unique blend of Chinese and European architecture.",
+        "Check-out from the hotel and transfer to the airport for departure with cherished memories."
+    ],
+    "included": [
+        "Accommodation in a 4-star hotel",
+        "Daily breakfast",
+        "Transportation in a private vehicle",
+        "Guided tours and entrance fees"
+    ],
+    "excluded": [
+        "International flights",
+        "Travel insurance",
+        "Personal expenses",
+        "Gratuities"
+    ]
+  },
+  {
+    "link": "tour/malaysia-3n4d",
+    "order": "malaysia-3n4d",
+    "tag": "international",
+    "location": "Malaysia",
+    "title": "Majestic Malaysia",
+    "duration": "4 Days / 3 Nights",
+    "image": "src/assets/images/trips/malaysia/malaysia-1.jpg",
+    "images": [
+        "../assets/images/trips/malaysia/malaysia-1.jpg",
+        "../assets/images/trips/malaysia/malaysia-2.jpg",
+        "../assets/images/trips/malaysia/malaysia-3.jpg"
+    ],
+    "itinerary": [
+        "Arrival in Kuala Lumpur, check-in at the hotel, and a good night's rest before the adventure begins.",
+        "Guided city tour covering Tugu Negara, a national monument of Malaysia. Drive past the Petronas Towers, K.L. Tower, and the beautiful Lake Garden.",
+        "Visit Batu Caves, home to picturesque temples. Take a cable car to Genting Highlands, explore the indoor theme park, and visit 'First World Plaza' for shopping and dining.",
+        "Check-out from the hotel and transfer to the airport for departure with cherished memories."
+    ],
+    "included": [
+        "Accommodation in a 4-star hotel",
+        "Daily breakfast",
+        "Transportation in a private vehicle",
+        "Guided tours and entrance fees"
+    ],
+    "excluded": [
+        "International flights",
+        "Travel insurance",
+        "Personal expenses",
+        "Gratuities"
+    ]
+  },
+  {
+    "link": "tour/sri-lanka-5n6d",
+    "order": "sri-lanka-5n6d",
+    "tag": "international",
+    "location": "Sri Lanka",
+    "title": "Explore Sri Lanka",
+    "duration": "6 Days / 5 Nights",
+    "image": "src/assets/images/trips/sri-lanka/sri-lanka-1.jpg",
+    "images": [
+        "../assets/images/trips/sri-lanka/sri-lanka-1.jpg",
+        "../assets/images/trips/sri-lanka/sri-lanka-2.jpg",
+        "../assets/images/trips/sri-lanka/sri-lanka-3.jpg"
+    ],
+    "itinerary": [
+        "Arrive at Bandaranaike International Airport and transfer to Kandy. Visit the Elephant Orphanage, Temple of Tooth Relic, Peradeniya Botanical Garden, and Gems Gallery. In the evening, enjoy the Kandy Cultural Show.",
+        "Visit Peradeniya Botanical Gardens, home to over 4000 species of plants. Travel to Nuwara Eliya, stopping at Ramboda Hanuman Temple, Tea Plantation & Ramboda Falls. Enjoy a boat ride on Gregory Lake in the evening.",
+        "Transfer to Bentota, visiting St. Claire Falls & Devon Falls en route. Explore the beautiful sandy beaches of Bentota.",
+        "Visit Kosgoda Turtle Hatchery in the morning. Enjoy thrilling water sports like jet skiing, Banana Boat Ride & Tube Ride at Bentota Beach in the afternoon.",
+        "Proceed to Colombo for a guided city tour covering Fort (Colombo), Sea Street, Dutch Church of Wolfendhal, BMICH, and Independence Square.",
+        "After breakfast, check out and transfer to the airport for departure with loads of cherished memories."
+    ],
+    "included": [
+        "Accommodation in a 4-star hotel",
+        "Daily breakfast",
+        "Private transportation",
+        "Guided tours and entrance fees"
+    ],
+    "excluded": [
+        "International flights",
+        "Travel insurance",
+        "Personal expenses",
+        "Gratuities"
+    ]
+  },
+  {
+    "link": "tour/dubai-5n6d",
+    "order": "dubai-5n6d",
+    "tag": "international",
+    "location": "Dubai",
+    "title": "Exciting Dubai & Abu Dhabi",
+    "duration": "6 Days / 5 Nights",
+    "image": "src/assets/images/trips/dubai/dubai-1.jpg",
+    "images": [
+        "../assets/images/trips/dubai/dubai-1.jpg",
+        "../assets/images/trips/dubai/dubai-2.jpg",
+        "../assets/images/trips/dubai/dubai-3.jpg"
+    ],
+    "itinerary": [
+        "Arrive in Dubai and check in at the hotel for a good night's rest before the adventure begins.",
+        "Guided city tour visiting Burj Al Arab, Burj Khalifa, Rolex Twin Towers, Jumeirah Mosque, and Dubai Museum. Evening Dhow Cruise Dinner with stunning Dubai skyline views.",
+        "Desert Safari with thrilling dune bashing, Tanura show, belly dance, and BBQ dinner.",
+        "Abu Dhabi City Tour with a visit to Ferrari World OR Warner Bros World for exhilarating rides and entertainment.",
+        "Day free at leisure or explore optional sightseeing spots like Dubai Mall and its newest addition, Chinatown.",
+        "After breakfast, check out and transfer to the airport for departure with loads of cherished memories."
+    ],
+    "included": [
+        "Accommodation in a 4-star hotel",
+        "Daily breakfast",
+        "Private transportation",
+        "Guided tours and entrance fees"
+    ],
+    "excluded": [
+        "International flights",
+        "Travel insurance",
+        "Personal expenses",
+        "Gratuities"
+    ]
+},
+{
+  "link": "tour/vietnam-6n7d",
+  "order": "vietnam-6n7d",
+  "tag": "international",
+  "location": "Vietnam",
+  "title": "Jewels of Vietnam",
+  "duration": "7 Days / 6 Nights",
+  "image": "src/assets/images/trips/vietnam/vietnam-1.jpg",
+  "images": [
+      "../assets/images/trips/vietnam/vietnam-1.jpg",
+      "../assets/images/trips/vietnam/vietnam-2.jpg",
+      "../assets/images/trips/vietnam/vietnam-3.jpg"
+  ],
+  "itinerary": [
+      "Arrive in Hanoi, guided city tour, and overnight stay in Hanoi.",
+      "Transfer to Halong Bay for an overnight cruise. Enjoy lunch and dinner onboard while exploring mystical caves and floating villages.",
+      "Enjoy brunch on the cruise, then take an evening flight to Da Nang for an overnight stay.",
+      "Breakfast at the hotel, transfer to Ba Na Hills, enjoy a cable car ride, buffet lunch, and visit the Golden Bridge above Truong Son Mountains.",
+      "Breakfast at the hotel, transfer to Ho Chi Minh City, lunch and dinner at an Indian restaurant, and overnight stay in Ho Chi Minh.",
+      "Guided tour of Ho Chi Minh City and an excursion to Cu Chi Tunnels for an educational experience. Option for a Dinner Cruise on Saigon River.",
+      "Breakfast at the hotel, explore Ho Chi Minh City at leisure, then depart back home with cherished memories."
+  ],
+  "included": [
+      "Accommodation in a 4-star hotel",
+      "Daily breakfast",
+      "Private transportation",
+      "Guided tours and entrance fees"
+  ],
+  "excluded": [
+      "International flights",
+      "Travel insurance",
+      "Personal expenses",
+      "Gratuities"
+  ]
+},
+{
+  "link": "tour/singapore-4n5d",
+  "order": "singapore-4n5d",
+  "tag": "international",
+  "location": "Singapore",
+  "title": "Sizzling Singapore",
+  "duration": "5 Days / 4 Nights",
+  "image": "src/assets/images/trips/singapore/singapore-1.jpg",
+  "images": [
+      "../assets/images/trips/singapore/singapore-1.jpg",
+      "../assets/images/trips/singapore/singapore-2.jpg",
+      "../assets/images/trips/singapore/singapore-3.jpg"
+  ],
+  "itinerary": [
+      "Arrival in Singapore, transfer to hotel, and Night Safari Tour with Tram ride or Bird Paradise.",
+      "Sentosa Island tour including One-way Cable Car, Madame Tussauds, S.E.A Aquarium, and Wings of Time.",
+      "Breakfast at the hotel, transfer to Universal Studios for a full day of fun, then return to the hotel.",
+      "Panoramic Singapore City Tour with Singapore Flyer & Time Capsule, enjoying stunning views of the skyline and landmarks.",
+      "Breakfast at the hotel, transfer to the airport, and depart back home with cherished memories."
+  ],
+  "included": [
+      "Accommodation in a 4-star hotel",
+      "Daily breakfast",
+      "Private transportation",
+      "Guided tours and entrance fees"
+  ],
+  "excluded": [
+      "International flights",
+      "Travel insurance",
+      "Personal expenses",
+      "Gratuities"
+  ]
+},
+{
+  "link": "tour/malaysia-singapore-7n8d",
+  "order": "malaysia-singapore-7n8d",
+  "tag": "international",
+  "location": "Malaysia & Singapore",
+  "title": "Happening Malaysia with Singapore",
+  "duration": "8 Days / 7 Nights",
+  "image": "src/assets/images/trips/malaysia-singapore/malaysia-singapore-1.jpg",
+  "images": [
+      "../assets/images/trips/malaysia-singapore/malaysia-singapore-1.jpg",
+      "../assets/images/trips/malaysia-singapore/malaysia-singapore-2.jpg",
+      "../assets/images/trips/malaysia-singapore/malaysia-singapore-3.jpg"
+  ],
+  "itinerary": [
+      "Arrive in Kuala Lumpur, visit Putrajaya, lunch, and check-in at the hotel.",
+      "Breakfast at the hotel followed by a guided Kuala Lumpur city tour including KL Tower, KLCC Aquarium, and Twin Tower Observation Deck.",
+      "Transfer to Genting Highlands via two-way Cable Car with an en-route visit to Batu Caves. Explore the resort and overnight stay.",
+      "Breakfast at the hotel, check out, transfer to Singapore via coach, check-in at the hotel, and enjoy Night Safari tour with Tram ride or Bird Paradise.",
+      "Breakfast at the hotel, excursion to Universal Studios for a full day of fun, then return to the hotel.",
+      "Sentosa Island tour including One-way Cable Car, Madame Tussauds, S.E.A Aquarium, and Wings of Time.",
+      "Panoramic Singapore City Tour with Singapore Flyer & Time Capsule, enjoying stunning views of the skyline and landmarks, overnight stay in Singapore.",
+      "Breakfast at the hotel, check out, transfer to the airport, and depart back home with cherished memories."
+  ],
+  "included": [
+      "Accommodation in 4-star hotels",
+      "Daily breakfast",
+      "Private transportation",
+      "Guided tours and entrance fees"
+  ],
+  "excluded": [
+      "International flights",
+      "Travel insurance",
+      "Personal expenses",
+      "Gratuities"
+  ]
+},
+{
+  "link": "tour/malaysia-langkawi-4n5d",
+  "order": "malaysia-langkawi-4n5d",
+  "tag": "international",
+  "location": "Malaysia & Langkawi",
+  "title": "Mesmerising Malaysia with Langkawi",
+  "duration": "5 Days / 4 Nights",
+  "image": "src/assets/images/trips/malaysia-langkawi/malaysia-langkawi-1.jpg",
+  "images": [
+      "../assets/images/trips/malaysia-langkawi/malaysia-langkawi-1.jpg",
+      "../assets/images/trips/malaysia-langkawi/malaysia-langkawi-2.jpg",
+      "../assets/images/trips/malaysia-langkawi/malaysia-langkawi-3.jpg"
+  ],
+  "itinerary": [
+      "Arrive in Kuala Lumpur, check in at the hotel, explore the city at your leisure, and enjoy an evening by the piers witnessing luminescent wonders in the sky.",
+      "Breakfast at the hotel, transfer to Langkawi via flight, relax on the shorelines, and enjoy the Langkawi Cocktail Cruise.",
+      "Breakfast at the hotel, guided Langkawi city tour exploring history and traditions, ending with a visit to Kuah Town and return to the shorelines.",
+      "Breakfast at the hotel, leisure day to explore the glorious island, optional visit to the Mangrove and caves.",
+      "Breakfast at the hotel, check out, transfer to the airport, and depart back home with unforgettable memories."
+  ],
+  "included": [
+      "Accommodation in 4-star hotels",
+      "Daily breakfast",
+      "Private transportation",
+      "Guided tours and entrance fees"
+  ],
+  "excluded": [
+      "International flights",
+      "Travel insurance",
+      "Personal expenses",
+      "Gratuities"
+  ]
+},
+{
+  "link": "tour/golden-triangle-4n5d",
+  "order": "golden-triangle-4n5d",
+  "tag": "domestic",
+  "location": "Golden Triangle (Delhi, Agra & Jaipur)",
+  "title": "Beauty of India",
+  "duration": "5 Days / 4 Nights",
+  "image": "src/assets/images/trips/golden-triangle/golden-triangle-1.jpg",
+  "images": [
+      "../assets/images/trips/golden-triangle/golden-triangle-1.jpg",
+      "../assets/images/trips/golden-triangle/golden-triangle-2.jpg",
+      "../assets/images/trips/golden-triangle/golden-triangle-3.jpg"
+  ],
+  "itinerary": [
+      "Arrive at Delhi, pickup at the airport, drive to Agra, en-route visit Janmabhumi - Krishna’s birthplace.",
+      "After breakfast, visit the Taj Mahal on the banks of the Yamuna and Agra Fort. Drive to Jaipur, en-route visit Fatehpur Sikri. Dinner and overnight stay at Jaipur.",
+      "Full-day sightseeing in Jaipur, including a visit to Bapu Bazaar (local market).",
+      "Morning breakfast at the hotel, drive back to Delhi. Sightseeing and later transfer to the hotel. Dinner and overnight stay in Delhi.",
+      "Breakfast at the hotel, check out, sightseeing at Agrasen ki Baoli, Red Fort, Jama Mosque, Raj Ghat, and Shanti Van. Evening drop at the airport. Depart back home with loads of memories to cherish."
+  ],
+  "included": [
+      "Accommodation in 4-star hotels",
+      "Daily breakfast",
+      "Private transportation",
+      "Guided tours and entrance fees"
+  ],
+  "excluded": [
+      "International flights",
+      "Travel insurance",
+      "Personal expenses",
+      "Gratuities"
+  ]
+},
+{
+  "link": "tour/delhi-kashmir-7n8d",
+  "order": "delhi-kashmir-7n8d",
+  "tag": "domestic",
+  "location": "Delhi & Kashmir",
+  "title": "Breathtaking Kashmir with Delhi",
+  "duration": "8 Days / 7 Nights",
+  "image": "src/assets/images/trips/delhi-kashmir/delhi-kashmir-1.jpg",
+  "images": [
+      "../assets/images/trips/delhi-kashmir/delhi-kashmir-1.jpg",
+      "../assets/images/trips/delhi-kashmir/delhi-kashmir-2.jpg",
+      "../assets/images/trips/delhi-kashmir/delhi-kashmir-3.jpg"
+  ],
+  "itinerary": [
+      "Arrive at Delhi, check-in at the hotel. Local sightseeing on your own. Overnight stay in Delhi.",
+      "Visit famous hotspots like Madame Tussauds Museum, Jama Masjid, Humayun’s Tomb, Qutub Minar, and Parliament House.",
+      "Breakfast at the hotel. Transfer to the ever-beautiful Taj Mahal. Overnight stay in Delhi.",
+      "After breakfast, transfer to Kashmir through flight. Overnight stay in a boathouse at Srinagar.",
+      "After breakfast, travel to Pahalgam, the Valley of Shepherds, known for its scenic beauty with River Lidder flowing amidst ice-covered mountain peaks.",
+      "After breakfast, explore Aru, Chandanwari, and Betab Valley by union cab. Enjoy deodar forests, snow-covered peaks, and campsites. Evening visit to Pahalgam Bazaar for shopping.",
+      "Visit Gulmarg, the Meadow of Flowers, famous for its scenic beauty and the world’s highest green golf course. Get a majestic view of Nanga Parbat.",
+      "Check out from the hotel and transfer to the airport. Depart back home with loads of memories to cherish."
+  ],
+  "included": [
+      "Accommodation in 4-star hotels and houseboats",
+      "Daily breakfast",
+      "Private transportation",
+      "Guided tours and entrance fees"
+  ],
+  "excluded": [
+      "International and domestic flights",
+      "Travel insurance",
+      "Personal expenses",
+      "Gratuities"
+  ]
+},
+{
+  "link": "tour/andaman-4n5d",
+  "order": "andaman-4n5d",
+  "tag": "domestic",
+  "location": "Andaman",
+  "title": "Amazing Andaman",
+  "duration": "5 Days / 4 Nights",
+  "image": "src/assets/images/trips/andaman/andaman-1.jpg",
+  "images": [
+      "../assets/images/trips/andaman/andaman-1.jpg",
+      "../assets/images/trips/andaman/andaman-2.jpg",
+      "../assets/images/trips/andaman/andaman-3.jpg"
+  ],
+  "itinerary": [
+      "Arrive in Andaman, check-in at the hotel. Visit Corbyn's Cove and enjoy water sports like jet skiing, kayaking, and surfing. Explore the Cellular Jail and witness the Light and Sound show on India's freedom struggle.",
+      "Take a ferry to Havelock Island, home to some of Asia's most beautiful beaches, including Radhanagar Beach.",
+      "Visit Elephant Beach, a serene spot with crystal-clear water, and enjoy water sports.",
+      "After breakfast, ferry back to Port Blair, the capital city of Andaman.",
+      "Check out from the hotel and transfer to the airport. Depart back home with loads of memories to cherish."
+  ],
+  "included": [
+      "Accommodation in 4-star hotels",
+      "Daily breakfast",
+      "Private transportation",
+      "Ferry transfers and guided tours"
+  ],
+  "excluded": [
+      "International and domestic flights",
+      "Travel insurance",
+      "Personal expenses",
+      "Gratuities"
+  ]
+}
+
+
+
+
+
+
+
+  
+
+
+
+    
 
 
 
