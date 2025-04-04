@@ -1,6 +1,7 @@
 import flight1 from '../assets/images/services2/flight-1.jpg';
 import flight2 from '../assets/images/services2/flight-2.jpg';
-import ContactSection from '../Components/ContactSection';
+import ContactSection2 from '../Components/ContactCard2';
+import ContactSection3 from '../Components/ContactCard3';
 import FormsSection from '../Components/FormsSection'
 
 const FlightsPage = () => {
@@ -52,7 +53,8 @@ const FlightsPage = () => {
         
       </section>
       <FormsSection />
-      <ContactSection />
+      <ContactSection2 />
+      <ContactSection3 />
     </>
   );
 };

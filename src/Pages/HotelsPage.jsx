@@ -1,6 +1,7 @@
 import hotel1 from '../assets/images/services2/hotel-1.jpg';
 import hotel2 from '../assets/images/services2/hotel-2.jpg';
-import ContactSection from '../Components/ContactSection';
+import ContactSection2 from '../Components/ContactCard2';
+import ContactSection3 from '../Components/ContactCard3';
 import FormsSection from '../Components/FormsSection';
 
 const HotelsPage = () => {
@@ -51,7 +52,8 @@ const HotelsPage = () => {
         </div>
       </section>
       <FormsSection />
-          <ContactSection />
+      <ContactSection2 />
+      <ContactSection3 />
     </>
   );
 };
