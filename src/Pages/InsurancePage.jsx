@@ -1,5 +1,6 @@
 import insurance1 from '../assets/images/services2/insurance-1.jpg';
-import ContactSection from '../Components/ContactSection';
+import ContactSection2 from '../Components/ContactCard2';
+import ContactSection3 from '../Components/ContactCard3'; 
 import FormsSection from '../Components/FormsSection';
 // import insurance2 from '../assets/images/insurance-2.jpg'
 
@@ -56,7 +57,8 @@ const InsurancePage = () => {
         </div>
       </section>
       <FormsSection />
-            <ContactSection />
+      <ContactSection2 />
+      <ContactSection3 />
     </>
   );
 };
