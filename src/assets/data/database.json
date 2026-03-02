@@ -8,9 +8,9 @@
         "duration": "5 Days / 4 Nights",
         "image": "/assets/images/trips/paris/paris-1.jpg",
         "images": [
-            "../assets/images/trips/paris/paris-1.jpg",
-            "../assets/images/trips/paris/paris-1.jpg",
-            "../assets/images/trips/paris/paris-1.jpg"
+            "/assets/images/trips/paris/paris-1.jpg",
+            "/assets/images/trips/paris/paris-1.jpg",
+            "/assets/images/trips/paris/paris-1.jpg"
         ],
         "itinerary": [
             "Arrival in Paris, check-in at the hotel, and Enjoy a welcome dinner.",
@@ -41,9 +41,9 @@
         "duration": "5 Days / 4 Nights",
         "image": "/assets/images/trips/tokyo/tokyo-1.jpg",
         "images": [
-            "../assets/images/trips/paris/paris-1.jpg",
-            "../assets/images/trips/paris/paris-1.jpg",
-            "../assets/images/trips/paris/paris-1.jpg"
+            "/assets/images/trips/paris/paris-1.jpg",
+            "/assets/images/trips/paris/paris-1.jpg",
+            "/assets/images/trips/paris/paris-1.jpg"
         ],
         "itinerary": [
             "Arrival in Tokyo, check-in at the hotel, and Enjoy a welcome dinner.",
@@ -74,9 +74,9 @@
         "duration": "6 Days / 5 Nights",
         "image": "/assets/images/trips/bali/bali-1.png",
         "images": [
-            "../assets/images/trips/bali/bali-1.png",
-            "../assets/images/trips/bali/bali-2.png",
-            "../assets/images/trips/bali/bali-3.png"
+            "/assets/images/trips/bali/bali-1.png",
+            "/assets/images/trips/bali/bali-2.png",
+            "/assets/images/trips/bali/bali-3.png"
         ],
         "itinerary": [
             "Arrival in Bali, check-in at the resort, refresh, and relax with a beachside stroll.",
@@ -108,9 +108,9 @@
         "duration": "4 Days / 3 Nights",
         "image": "/assets/images/trips/sri-lanka/sri-lanka-1.jpg",
         "images": [
-            "../assets/images/trips/sri-lanka/sri-lanka-1.jpg",
-            "../assets/images/trips/sri-lanka/sri-lanka-2.jpg",
-            "../assets/images/trips/sri-lanka/sri-lanka-3.jpg"
+            "/assets/images/trips/sri-lanka/sri-lanka-1.jpg",
+            "/assets/images/trips/sri-lanka/sri-lanka-2.jpg",
+            "/assets/images/trips/sri-lanka/sri-lanka-3.jpg"
         ],
         "itinerary": [
             "Arrival at Bandaranaike International Airport, transfer to Kandy, check-in at the hotel, visit the Elephant Orphanage, and enjoy the Kandy Cultural Show in the evening.",
@@ -140,9 +140,9 @@
         "duration": "5 Days / 4 Nights",
         "image": "/assets/images/trips/thailand/thailand-1.jpg",
         "images": [
-            "../assets/images/trips/thailand/thailand-1.jpg",
-            "../assets/images/trips/thailand/thailand-2.jpg",
-            "../assets/images/trips/thailand/thailand-3.jpg"
+            "/assets/images/trips/thailand/thailand-1.jpg",
+            "/assets/images/trips/thailand/thailand-2.jpg",
+            "/assets/images/trips/thailand/thailand-3.jpg"
         ],
         "itinerary": [
             "Arrival in Bangkok, transfer to Pattaya, check-in at the hotel, and refresh. Experience the Alcazar Show in the evening.",
@@ -173,9 +173,9 @@
         "duration": "5 Days / 4 Nights",
         "image": "/assets/images/trips/hong-kong/hong-kong-1.jpg",
         "images": [
-            "../assets/images/trips/hong-kong/hong-kong-1.jpg",
-            "../assets/images/trips/hong-kong/hong-kong-2.jpg",
-            "../assets/images/trips/hong-kong/hong-kong-3.jpg"
+            "/assets/images/trips/hong-kong/hong-kong-1.jpg",
+            "/assets/images/trips/hong-kong/hong-kong-2.jpg",
+            "/assets/images/trips/hong-kong/hong-kong-3.jpg"
         ],
         "itinerary": [
             "Arrival in Hong Kong, check-in at the hotel, refresh, and explore the city at your own pace.",
@@ -206,9 +206,9 @@
         "duration": "4 Days / 3 Nights",
         "image": "/assets/images/trips/maldives/maldives-1.jpg",
         "images": [
-            "../assets/images/trips/maldives/maldives-1.jpg",
-            "../assets/images/trips/maldives/maldives-2.jpg",
-            "../assets/images/trips/maldives/maldives-3.jpg"
+            "/assets/images/trips/maldives/maldives-1.jpg",
+            "/assets/images/trips/maldives/maldives-2.jpg",
+            "/assets/images/trips/maldives/maldives-3.jpg"
         ],
         "itinerary": [
             "Arrival at Male International Airport and transfer to the resort via ferry.",
@@ -238,9 +238,9 @@
         "duration": "6 Days / 5 Nights",
         "image": "/assets/images/trips/bali/bali-1.png",
         "images": [
-            "../assets/images/trips/bali/bali-1.png",
-            "../assets/images/trips/bali/bali-2.png",
-            "../assets/images/trips/bali/bali-3.png"
+            "/assets/images/trips/bali/bali-1.png",
+            "/assets/images/trips/bali/bali-2.png",
+            "/assets/images/trips/bali/bali-3.png"
         ],
         "itinerary": [
             "Arrival in Bali, check-in at the resort, refresh, and enjoy a stroll through the beachside.",
@@ -272,9 +272,9 @@
         "duration": "5 Days / 4 Nights",
         "image": "/assets/images/trips/bali/bali-1.png",
         "images": [
-            "../assets/images/trips/bali/bali-1.png",
-            "../assets/images/trips/bali/bali-2.png",
-            "../assets/images/trips/bali/bali-3.png"
+            "/assets/images/trips/bali/bali-1.png",
+            "/assets/images/trips/bali/bali-2.png",
+            "/assets/images/trips/bali/bali-3.png"
         ],
         "itinerary": [
             "Arrival in Bali, check-in at the resort, refresh, and enjoy a stroll through the beachside.",
@@ -305,9 +305,9 @@
         "duration": "6 Days / 5 Nights",
         "image": "/assets/images/trips/hong-kong/hk-1.jpg",
         "images": [
-            "../assets/images/trips/hong-kong/hk-1.jpg",
-            "../assets/images/trips/hong-kong/hk-2.jpg",
-            "../assets/images/trips/hong-kong/hk-3.jpg"
+            "/assets/images/trips/hong-kong/hk-1.jpg",
+            "/assets/images/trips/hong-kong/hk-2.jpg",
+            "/assets/images/trips/hong-kong/hk-3.jpg"
         ],
         "itinerary": [
             "Arrival in Hong Kong, check-in at the hotel, refresh, and explore the city on your own.",
@@ -339,9 +339,9 @@
         "duration": "4 Days / 3 Nights",
         "image": "/assets/images/trips/malaysia/malaysia-1.jpg",
         "images": [
-            "../assets/images/trips/malaysia/malaysia-1.jpg",
-            "../assets/images/trips/malaysia/malaysia-2.jpg",
-            "../assets/images/trips/malaysia/malaysia-3.jpg"
+            "/assets/images/trips/malaysia/malaysia-1.jpg",
+            "/assets/images/trips/malaysia/malaysia-2.jpg",
+            "/assets/images/trips/malaysia/malaysia-3.jpg"
         ],
         "itinerary": [
             "Arrival in Kuala Lumpur, check-in at the hotel, and a good night's rest before the adventure begins.",
@@ -371,9 +371,9 @@
         "duration": "6 Days / 5 Nights",
         "image": "/assets/images/trips/sri-lanka/sri-lanka-1.jpg",
         "images": [
-            "../assets/images/trips/sri-lanka/sri-lanka-1.jpg",
-            "../assets/images/trips/sri-lanka/sri-lanka-2.jpg",
-            "../assets/images/trips/sri-lanka/sri-lanka-3.jpg"
+            "/assets/images/trips/sri-lanka/sri-lanka-1.jpg",
+            "/assets/images/trips/sri-lanka/sri-lanka-2.jpg",
+            "/assets/images/trips/sri-lanka/sri-lanka-3.jpg"
         ],
         "itinerary": [
             "Arrive at Bandaranaike International Airport and transfer to Kandy. Visit the Elephant Orphanage, Temple of Tooth Relic, Peradeniya Botanical Garden, and Gems Gallery. In the evening, enjoy the Kandy Cultural Show.",
@@ -405,9 +405,9 @@
         "duration": "6 Days / 5 Nights",
         "image": "/assets/images/trips/dubai/dubai-1.jpg",
         "images": [
-            "../assets/images/trips/dubai/dubai-1.jpg",
-            "../assets/images/trips/dubai/dubai-2.jpg",
-            "../assets/images/trips/dubai/dubai-3.jpg"
+            "/assets/images/trips/dubai/dubai-1.jpg",
+            "/assets/images/trips/dubai/dubai-2.jpg",
+            "/assets/images/trips/dubai/dubai-3.jpg"
         ],
         "itinerary": [
             "Arrive in Dubai and check in at the hotel for a good night's rest before the adventure begins.",
@@ -439,9 +439,9 @@
         "duration": "7 Days / 6 Nights",
         "image": "/assets/images/trips/vietnam/vietnam-1.jpg",
         "images": [
-            "../assets/images/trips/vietnam/vietnam-1.jpg",
-            "../assets/images/trips/vietnam/vietnam-2.jpg",
-            "../assets/images/trips/vietnam/vietnam-3.jpg"
+            "/assets/images/trips/vietnam/vietnam-1.jpg",
+            "/assets/images/trips/vietnam/vietnam-2.jpg",
+            "/assets/images/trips/vietnam/vietnam-3.jpg"
         ],
         "itinerary": [
             "Arrive in Hanoi, guided city tour, and overnight stay in Hanoi.",
@@ -474,9 +474,9 @@
         "duration": "5 Days / 4 Nights",
         "image": "/assets/images/trips/singapore/singapore-1.jpg",
         "images": [
-            "../assets/images/trips/singapore/singapore-1.jpg",
-            "../assets/images/trips/singapore/singapore-2.jpg",
-            "../assets/images/trips/singapore/singapore-3.jpg"
+            "/assets/images/trips/singapore/singapore-1.jpg",
+            "/assets/images/trips/singapore/singapore-2.jpg",
+            "/assets/images/trips/singapore/singapore-3.jpg"
         ],
         "itinerary": [
             "Arrival in Singapore, transfer to hotel, and Night Safari Tour with Tram ride or Bird Paradise.",
@@ -507,9 +507,9 @@
         "duration": "8 Days / 7 Nights",
         "image": "/assets/images/trips/malaysia-singapore/malaysia-singapore-1.jpg",
         "images": [
-            "../assets/images/trips/malaysia-singapore/malaysia-singapore-1.jpg",
-            "../assets/images/trips/malaysia-singapore/malaysia-singapore-2.jpg",
-            "../assets/images/trips/malaysia-singapore/malaysia-singapore-3.jpg"
+            "/assets/images/trips/malaysia-singapore/malaysia-singapore-1.jpg",
+            "/assets/images/trips/malaysia-singapore/malaysia-singapore-2.jpg",
+            "/assets/images/trips/malaysia-singapore/malaysia-singapore-3.jpg"
         ],
         "itinerary": [
             "Arrive in Kuala Lumpur, visit Putrajaya, lunch, and check-in at the hotel.",
@@ -543,9 +543,9 @@
         "duration": "5 Days / 4 Nights",
         "image": "/assets/images/trips/malaysia-langkawi/malaysia-langkawi-1.jpg",
         "images": [
-            "../assets/images/trips/malaysia-langkawi/malaysia-langkawi-1.jpg",
-            "../assets/images/trips/malaysia-langkawi/malaysia-langkawi-2.jpg",
-            "../assets/images/trips/malaysia-langkawi/malaysia-langkawi-3.jpg"
+            "/assets/images/trips/malaysia-langkawi/malaysia-langkawi-1.jpg",
+            "/assets/images/trips/malaysia-langkawi/malaysia-langkawi-2.jpg",
+            "/assets/images/trips/malaysia-langkawi/malaysia-langkawi-3.jpg"
         ],
         "itinerary": [
             "Arrive in Kuala Lumpur, check in at the hotel, explore the city at your leisure, and enjoy an evening by the piers witnessing luminescent wonders in the sky.",
@@ -576,9 +576,9 @@
         "duration": "5 Days / 4 Nights",
         "image": "/assets/images/trips/golden-triangle/golden-triangle-1.jpg",
         "images": [
-            "../assets/images/trips/golden-triangle/golden-triangle-1.jpg",
-            "../assets/images/trips/golden-triangle/golden-triangle-2.jpg",
-            "../assets/images/trips/golden-triangle/golden-triangle-3.jpg"
+            "/assets/images/trips/golden-triangle/golden-triangle-1.jpg",
+            "/assets/images/trips/golden-triangle/golden-triangle-2.jpg",
+            "/assets/images/trips/golden-triangle/golden-triangle-3.jpg"
         ],
         "itinerary": [
             "Arrive at Delhi, pickup at the airport, drive to Agra, en-route visit Janmabhumi - Krishna’s birthplace.",
@@ -609,9 +609,9 @@
         "duration": "8 Days / 7 Nights",
         "image": "/assets/images/trips/delhi-kashmir/delhi-kashmir-1.jpg",
         "images": [
-            "../assets/images/trips/delhi-kashmir/delhi-kashmir-1.jpg",
-            "../assets/images/trips/delhi-kashmir/delhi-kashmir-2.jpg",
-            "../assets/images/trips/delhi-kashmir/delhi-kashmir-3.jpg"
+            "/assets/images/trips/delhi-kashmir/delhi-kashmir-1.jpg",
+            "/assets/images/trips/delhi-kashmir/delhi-kashmir-2.jpg",
+            "/assets/images/trips/delhi-kashmir/delhi-kashmir-3.jpg"
         ],
         "itinerary": [
             "Arrive at Delhi, check-in at the hotel. Local sightseeing on your own. Overnight stay in Delhi.",
@@ -645,9 +645,9 @@
         "duration": "5 Days / 4 Nights",
         "image": "/assets/images/trips/andaman/andaman-1.jpg",
         "images": [
-            "../assets/images/trips/andaman/andaman-1.jpg",
-            "../assets/images/trips/andaman/andaman-2.jpg",
-            "../assets/images/trips/andaman/andaman-3.jpg"
+            "/assets/images/trips/andaman/andaman-1.jpg",
+            "/assets/images/trips/andaman/andaman-2.jpg",
+            "/assets/images/trips/andaman/andaman-3.jpg"
         ],
         "itinerary": [
             "Arrive in Andaman, check-in at the hotel. Visit Corbyn's Cove and enjoy water sports like jet skiing, kayaking, and surfing. Explore the Cellular Jail and witness the Light and Sound show on India's freedom struggle.",

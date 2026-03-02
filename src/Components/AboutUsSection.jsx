@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const AboutUsSection = () => {
   return (
@@ -28,9 +29,9 @@ const AboutUsSection = () => {
                 that cater to your unique preferences and transform your travel
                 dreams into reality.
               </p>
-              <a href="/international" className="explore-btn text-decoration-none">
+              <Link to="/international" className="explore-btn text-decoration-none">
                 Start Exploring
-              </a>
+              </Link>
 
             </div>
           </div>

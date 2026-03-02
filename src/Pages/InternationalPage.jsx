@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import trips from '../assets/data/database.json';
 import ContactCard from '../Components/ContactCard';
 import '../InternationalPage.css'; // Import custom CSS for additional styling
@@ -51,9 +52,9 @@ const InternationalPage = () => {
                     <div className="card-body">
                       <h5 className="card-title">{trip.location}</h5>
                       <p className="card-text">{trip.duration}</p>
-                      <a href={trip.link} className="btn btn-primary btn-more">
+                      <Link to={`/${trip.link}`} className="btn btn-primary btn-more">
                         More
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

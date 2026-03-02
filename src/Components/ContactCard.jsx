@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ContactCard = () => {
   return (
@@ -10,11 +11,9 @@ const ContactCard = () => {
         <div className="col-12 px-5 mt-3 mb-4" style={{ fontSize: '20px', fontFamily: "'Inter', sans-serif", color: '#6C757D' }}>
           Let us craft a journey that’s unforgettable. Explore new destinations with seamless travel planning and personalized experiences.
         </div>
-        <a className="col-12 fw-medium" style={{ textDecoration: 'none', color: '#0056B3', fontSize: '18px' }}>
-          <a href="/international" className="explore-btn text-decoration-none">
-            Plan Your Trip Today
-              </a>
-        </a>
+        <Link to="/international" className="col-12 fw-medium text-decoration-none" style={{ color: '#0056B3', fontSize: '18px' }}>
+          <span className="explore-btn">Plan Your Trip Today</span>
+        </Link>
       </div>
     </div>
   );
