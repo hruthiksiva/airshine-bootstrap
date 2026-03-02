@@ -41,9 +41,9 @@
         "duration": "5 Days / 4 Nights",
         "image": "/assets/images/trips/tokyo/tokyo-1.jpg",
         "images": [
-            "/assets/images/trips/paris/paris-1.jpg",
-            "/assets/images/trips/paris/paris-1.jpg",
-            "/assets/images/trips/paris/paris-1.jpg"
+            "/assets/images/trips/tokyo/tokyo-1.jpg",
+            "/assets/images/trips/tokyo/tokyo-1.jpg",
+            "/assets/images/trips/tokyo/tokyo-1.jpg"
         ],
         "itinerary": [
             "Arrival in Tokyo, check-in at the hotel, and Enjoy a welcome dinner.",
@@ -138,11 +138,11 @@
         "location": "Thailand",
         "title": "Alluring Thailand",
         "duration": "5 Days / 4 Nights",
-        "image": "/assets/images/trips/thailand/thailand-1.jpg",
+        "image": "/assets/images/trips/thailand/thailand-1.png",
         "images": [
-            "/assets/images/trips/thailand/thailand-1.jpg",
-            "/assets/images/trips/thailand/thailand-2.jpg",
-            "/assets/images/trips/thailand/thailand-3.jpg"
+            "/assets/images/trips/thailand/thailand-1.png",
+            "/assets/images/trips/thailand/thailand-2.png",
+            "/assets/images/trips/thailand/thailand-3.png"
         ],
         "itinerary": [
             "Arrival in Bangkok, transfer to Pattaya, check-in at the hotel, and refresh. Experience the Alcazar Show in the evening.",
@@ -174,8 +174,8 @@
         "image": "/assets/images/trips/hong-kong/hong-kong-1.jpg",
         "images": [
             "/assets/images/trips/hong-kong/hong-kong-1.jpg",
-            "/assets/images/trips/hong-kong/hong-kong-2.jpg",
-            "/assets/images/trips/hong-kong/hong-kong-3.jpg"
+            "/assets/images/trips/hong-kong/hong-kong-1.jpg",
+            "/assets/images/trips/hong-kong/hong-kong-1.jpg"
         ],
         "itinerary": [
             "Arrival in Hong Kong, check-in at the hotel, refresh, and explore the city at your own pace.",
@@ -207,8 +207,8 @@
         "image": "/assets/images/trips/maldives/maldives-1.jpg",
         "images": [
             "/assets/images/trips/maldives/maldives-1.jpg",
-            "/assets/images/trips/maldives/maldives-2.jpg",
-            "/assets/images/trips/maldives/maldives-3.jpg"
+            "/assets/images/trips/maldives/maldives-1.jpg",
+            "/assets/images/trips/maldives/maldives-1.jpg"
         ],
         "itinerary": [
             "Arrival at Male International Airport and transfer to the resort via ferry.",
@@ -306,8 +306,8 @@
         "image": "/assets/images/trips/hong-kong/hk-1.jpg",
         "images": [
             "/assets/images/trips/hong-kong/hk-1.jpg",
-            "/assets/images/trips/hong-kong/hk-2.jpg",
-            "/assets/images/trips/hong-kong/hk-3.jpg"
+            "/assets/images/trips/hong-kong/hk-1.jpg",
+            "/assets/images/trips/hong-kong/hk-1.jpg"
         ],
         "itinerary": [
             "Arrival in Hong Kong, check-in at the hotel, refresh, and explore the city on your own.",
@@ -340,8 +340,8 @@
         "image": "/assets/images/trips/malaysia/malaysia-1.jpg",
         "images": [
             "/assets/images/trips/malaysia/malaysia-1.jpg",
-            "/assets/images/trips/malaysia/malaysia-2.jpg",
-            "/assets/images/trips/malaysia/malaysia-3.jpg"
+            "/assets/images/trips/malaysia/malaysia-1.jpg",
+            "/assets/images/trips/malaysia/malaysia-1.jpg"
         ],
         "itinerary": [
             "Arrival in Kuala Lumpur, check-in at the hotel, and a good night's rest before the adventure begins.",
@@ -440,8 +440,8 @@
         "image": "/assets/images/trips/vietnam/vietnam-1.jpg",
         "images": [
             "/assets/images/trips/vietnam/vietnam-1.jpg",
-            "/assets/images/trips/vietnam/vietnam-2.jpg",
-            "/assets/images/trips/vietnam/vietnam-3.jpg"
+            "/assets/images/trips/vietnam/vietnam-1.jpg",
+            "/assets/images/trips/vietnam/vietnam-1.jpg"
         ],
         "itinerary": [
             "Arrive in Hanoi, guided city tour, and overnight stay in Hanoi.",
@@ -475,8 +475,8 @@
         "image": "/assets/images/trips/singapore/singapore-1.jpg",
         "images": [
             "/assets/images/trips/singapore/singapore-1.jpg",
-            "/assets/images/trips/singapore/singapore-2.jpg",
-            "/assets/images/trips/singapore/singapore-3.jpg"
+            "/assets/images/trips/singapore/singapore-1.jpg",
+            "/assets/images/trips/singapore/singapore-1.jpg"
         ],
         "itinerary": [
             "Arrival in Singapore, transfer to hotel, and Night Safari Tour with Tram ride or Bird Paradise.",
@@ -544,8 +544,8 @@
         "image": "/assets/images/trips/malaysia-langkawi/malaysia-langkawi-1.jpg",
         "images": [
             "/assets/images/trips/malaysia-langkawi/malaysia-langkawi-1.jpg",
-            "/assets/images/trips/malaysia-langkawi/malaysia-langkawi-2.jpg",
-            "/assets/images/trips/malaysia-langkawi/malaysia-langkawi-3.jpg"
+            "/assets/images/trips/malaysia-langkawi/malaysia-langkawi-1.jpg",
+            "/assets/images/trips/malaysia-langkawi/malaysia-langkawi-1.jpg"
         ],
         "itinerary": [
             "Arrive in Kuala Lumpur, check in at the hotel, explore the city at your leisure, and enjoy an evening by the piers witnessing luminescent wonders in the sky.",
