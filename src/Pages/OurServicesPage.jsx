@@ -14,162 +14,161 @@ import service1 from "../assets/images/services/main-service-1.jpg"
 import SearchBar from "../Components/SearchBar"
 
 const OurServices = () => {
-    return (
-      <>
-        <div className="container-fluid px-0 ">
-          <section className="hero-section bg-light">
+  return (
+    <>
+      <div className="container-fluid px-0 ">
+        <section className="hero-section bg-light">
+          <div
+            className="hero-section text-white text-center d-flex flex-column justify-content-center align-items-center position-relative"
+            style={{
+              backgroundImage: `url(${service0})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              height: '90vh',
+            }}
+          >
             <div
-                  className="hero-section text-white text-center d-flex flex-column justify-content-center align-items-center position-relative"
-                  style={{
-                    backgroundImage: `url(${service0})` ,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    height: '90vh',
-                  }}
-                >
-                  <div
-                    className="overlay position-absolute top-0 start-0 w-100 h-100"
-                    style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}
-                  ></div>
-            
-                  <div className="z-1">
-                    <h1 className="display-3 fw-bold">Services Principle</h1>
-                    <p className="fs-4">Your Journey Starts Here</p>
-                  </div>
-            
-                  <SearchBar />
-                </div>
-          </section>
-  
-          <section className="hero-section py-5">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-md-6">
-                  <h2 className="h4 fw-semibold">Inbound and Outbound Tours</h2>
-                  <p className="mt-2">Time to cross out your dream destinations off your bucket list!</p>
-                  <ul className="list-unstyled ms-3">
-                    <li>International Tours</li>
-                    <li>Domestic Tours</li>
-                    <li>Local Tours</li>
-                  </ul>
-                  <p className="mt-3">
-                    Book Domestic & International flights that best suit your interest. Bag exciting offers and deals. We also cover other modes of transportation like Flights, Ships, Trains, Buses, etc.
-                  </p>
-                </div>
-                <div className="col-md-6">
-                  <img src={service1} alt="Inbound and Outbound Tours" className="img-fluid rounded" />
-                </div>
+              className="overlay position-absolute top-0 start-0 w-100 h-100"
+              style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}
+            ></div>
+
+            <div className="z-1">
+              <h1 className="display-3 fw-bold">Services Principle</h1>
+              <p className="fs-4">Your Journey Starts Here</p>
+            </div>
+
+            <SearchBar />
+          </div>
+        </section>
+
+        <section className="hero-section py-5">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <h2 className="h4 fw-semibold">Inbound and Outbound Tours</h2>
+                <p className="mt-2">Time to cross out your dream destinations off your bucket list!</p>
+                <ul className="list-unstyled ms-3">
+                  <li>International Tours</li>
+                  <li>Domestic Tours</li>
+                  <li>Local Tours</li>
+                </ul>
+                <p className="mt-3">
+                  Book Domestic & International flights that best suit your interest. Bag exciting offers and deals. We also cover other modes of transportation like Flights, Ships, Trains, Buses, etc.
+                </p>
+              </div>
+              <div className="col-md-6">
+                <img src={service1} alt="Inbound and Outbound Tours" className="img-fluid rounded" />
               </div>
             </div>
-          </section>
-  
-          <section className="hero-section bg-light py-5">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-md-6 order-md-1">
-                  <img src={service2} alt="Tour Packages" className="img-fluid rounded" />
-                </div>
-                <div className="col-md-6 order-md-2">
-                  <h2 className="h4 fw-semibold">Tour Packages</h2>
-                  <ul className="list-unstyled ms-3">
-                    <li>Student Tour Packages</li>
-                    <li>Family Tour Packages</li>
-                    <li>Group Tour Packages</li>
-                    <li>Pilgrimage Tour Packages</li>
-                    <li>Honeymoon Tour Packages</li>
-                  </ul>
-                  <p className="mt-3">
-                    Don't worry about numbers. Airshine has successfully orchestrated trips with groups of more than 200 passengers. Get onboard and have a delightful journey.
-                  </p>
-                </div>
+          </div>
+        </section>
+
+        <section className="hero-section bg-light py-5">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-md-6 order-md-1">
+                <img src={service2} alt="Tour Packages" className="img-fluid rounded" />
+              </div>
+              <div className="col-md-6 order-md-2">
+                <h2 className="h4 fw-semibold">Tour Packages</h2>
+                <ul className="list-unstyled ms-3">
+                  <li>Student Tour Packages</li>
+                  <li>Family Tour Packages</li>
+                  <li>Group Tour Packages</li>
+                  <li>Pilgrimage Tour Packages</li>
+                  <li>Honeymoon Tour Packages</li>
+                </ul>
+                <p className="mt-3">
+                  Don't worry about numbers. Airshine has successfully orchestrated trips with groups of more than 200 passengers. Get onboard and have a delightful journey.
+                </p>
               </div>
             </div>
-          </section>
-  
-          <section className="hero-section py-5">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-md-6">
-                  <h2 className="h4 fw-semibold">Hospitality Services</h2>
-                  <ul className="list-unstyled ms-3">
-                    <li>Hotel Bookings</li>
-                    <li>Meal Deals</li>
-                    <li>Activities Planning</li>
-                    <li>Tour Guides</li>
-                  </ul>
-                  <p className="mt-3">
-                    Yummy food, cozy beds, a stunning pool, and adrenaline-pumping activities. Sounds good? You can get all that and more using our hospitality services.
-                  </p>
-                </div>
-                <div className="col-md-6">
-                  <img src={service3} alt="Hospitality Services" className="img-fluid rounded" />
-                </div>
+          </div>
+        </section>
+
+        <section className="hero-section py-5">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <h2 className="h4 fw-semibold">Hospitality Services</h2>
+                <ul className="list-unstyled ms-3">
+                  <li>Hotel Bookings</li>
+                  <li>Meal Deals</li>
+                  <li>Activities Planning</li>
+                  <li>Tour Guides</li>
+                </ul>
+                <p className="mt-3">
+                  Yummy food, cozy beds, a stunning pool, and adrenaline-pumping activities. Sounds good? You can get all that and more using our hospitality services.
+                </p>
+              </div>
+              <div className="col-md-6">
+                <img src={service3} alt="Hospitality Services" className="img-fluid rounded" />
               </div>
             </div>
-          </section>
-  
-          <section className="hero-section bg-light py-5">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-md-6 order-md-1">
-                  <img src={service4} alt="Professional Services" className="img-fluid rounded" />
-                </div>
-                <div className="col-md-6 order-md-2">
-                  <h2 className="h4 fw-semibold">Professional Services</h2>
-                  <ul className="list-unstyled ms-3">
-                    <li>Travel Consultation</li>
-                    <li>Travel Planning</li>
-                  </ul>
-                </div>
+          </div>
+        </section>
+
+        <section className="hero-section bg-light py-5">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-md-6 order-md-1">
+                <img src={service4} alt="Professional Services" className="img-fluid rounded" />
+              </div>
+              <div className="col-md-6 order-md-2">
+                <h2 className="h4 fw-semibold">Professional Services</h2>
+                <ul className="list-unstyled ms-3">
+                  <li>Travel Consultation</li>
+                  <li>Travel Planning</li>
+                </ul>
               </div>
             </div>
-          </section>
-  
-          <section className="hero-section py-5">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-md-6">
-                  <h2 className="h4 fw-semibold">Ancillary Services</h2>
-                  <p className="mt-2">
-                    You don't have to worry anymore about the verification of your travel documents & travel insurance. We can take care of that through our ancillary services.
-                  </p>
-                  <ul className="list-unstyled ms-3">
-                    <li>Passports New Issue/Renewal</li>
-                  </ul>
-                  <p className="mt-3">
-                    We are just a query away from getting your issues resolved. Please do inbox us at <a href="mailto:email@example.com" className="text-primary text-decoration-underline">email@example.com</a>.
-                  </p>
-                </div>
-                <div className="col-md-6">
-                  <img src={service5} alt="Ancillary Services" className="img-fluid rounded" />
-                </div>
+          </div>
+        </section>
+
+        <section className="hero-section py-5">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-md-6">
+                <h2 className="h4 fw-semibold">Ancillary Services</h2>
+                <p className="mt-2">
+                  You don't have to worry anymore about the verification of your travel documents & travel insurance. We can take care of that through our ancillary services.
+                </p>
+                <ul className="list-unstyled ms-3">
+                  <li>Passports New Issue/Renewal</li>
+                </ul>
+                <p className="mt-3">
+                  We are just a query away from getting your issues resolved. Please do inbox us at <a href="mailto:email@example.com" className="text-primary text-decoration-underline">email@example.com</a>.
+                </p>
+              </div>
+              <div className="col-md-6">
+                <img src={service5} alt="Ancillary Services" className="img-fluid rounded" />
               </div>
             </div>
-          </section>
-  
-          <section className="hero-section bg-light py-5">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-md-6 order-md-1">
-                  <img src={service6} alt="MICE" className="img-fluid rounded" />
-                </div>
-                <div className="col-md-6 order-md-2">
-                  <h2 className="h4 fw-semibold">MICE</h2>
-                  <p><strong>M</strong> – Meeting</p>
-                  <p><strong>I</strong> – Incentives</p>
-                  <p><strong>C</strong> – Conferences/Convention</p>
-                  <p><strong>E</strong> – Education/Exhibition</p>
-                  <p className="mt-3">
-                    Travel arrangements will be made by our office for all kinds of MICE Tourism, including Air Tickets, Visa Process, Airport Transfers, and Hotel Bookings.
-                  </p>
-                </div>
+          </div>
+        </section>
+
+        <section className="hero-section bg-light py-5">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-md-6 order-md-1">
+                <img src={service6} alt="MICE" className="img-fluid rounded" />
+              </div>
+              <div className="col-md-6 order-md-2">
+                <h2 className="h4 fw-semibold">MICE</h2>
+                <p><strong>M</strong> – Meeting</p>
+                <p><strong>I</strong> – Incentives</p>
+                <p><strong>C</strong> – Conferences/Convention</p>
+                <p><strong>E</strong> – Education/Exhibition</p>
+                <p className="mt-3">
+                  Travel arrangements will be made by our office for all kinds of MICE Tourism, including Air Tickets, Visa Process, Airport Transfers, and Hotel Bookings.
+                </p>
               </div>
             </div>
-          </section>
-        </div>
-      </>
-    );
-  };
-  
-  export default OurServices;
-  
+          </div>
+        </section>
+      </div>
+    </>
+  );
+};
+
+export default OurServices;

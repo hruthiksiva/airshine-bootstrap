@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div
       className="hero-section text-white text-center d-flex flex-column justify-content-center align-items-center position-relative"
       style={{
-        backgroundImage: `url('src/assets/images/body-background.png')`,
+        backgroundImage: `url('/assets/images/body-background.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '90vh',

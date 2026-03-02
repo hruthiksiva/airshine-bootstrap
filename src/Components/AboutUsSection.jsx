@@ -8,7 +8,7 @@ const AboutUsSection = () => {
           <div className="row align-items-center g-5">
             <div className="col-lg-6 order-lg-2">
               <img
-                src="src/assets/images/home/about-1.jpg"
+                src="/assets/images/home/about-1.jpg"
                 className="about-image img-fluid w-100"
                 alt="Airshine Tours Experience"
                 loading="lazy"
@@ -22,10 +22,10 @@ const AboutUsSection = () => {
                 Your Portal to Global Travel Inspiration
               </h2>
               <p className="section-text mb-5">
-                Airshine is your ultimate travel companion, offering personalized 
-                itineraries and unforgettable experiences. Whether you're seeking 
-                adventure, relaxation, or cultural exploration, we craft journeys 
-                that cater to your unique preferences and transform your travel 
+                Airshine is your ultimate travel companion, offering personalized
+                itineraries and unforgettable experiences. Whether you're seeking
+                adventure, relaxation, or cultural exploration, we craft journeys
+                that cater to your unique preferences and transform your travel
                 dreams into reality.
               </p>
               <a href="/international" className="explore-btn text-decoration-none">
